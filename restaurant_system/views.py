@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-
+from .models import Restaurant
 
 # # Create your views here.
 # def welcome_message(request):
@@ -13,3 +13,7 @@ def welcome_message(request):
 
 def show_cover(request):
     return render(request, 'cover.html')
+
+def catalog(request):
+    data = {'restaurants': Restaurant.objects.all()}
+    return render(request, 'catalog.html',data)
