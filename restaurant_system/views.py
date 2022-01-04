@@ -20,3 +20,6 @@ def catalog(request):
 
 def login_page(request):
     return render(request, 'login.html')
+
+def user_registration(request):
+    return render (request, 'registration.html')
