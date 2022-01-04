@@ -17,3 +17,6 @@ def show_cover(request):
 def catalog(request):
     data = {'restaurants': Restaurant.objects.all()}
     return render(request, 'catalog.html',data)
+
+def login_page(request):
+    return render(request, 'login.html')
