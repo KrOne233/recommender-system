@@ -22,21 +22,14 @@ def welcome_message(request):
 def show_cover(request):
     return render(request, 'cover.html')
 
-def get_all_ratings(request):
-    data = {'rating': RestaurantSystemUser.objects.all()}
-    return render(request, 'catalog.html',data)
+# def get_all_ratings(request):   dont need two functionalities
+#     data = {'rating': Restaurant.objects.all()}
+#     return render(request, 'catalog.html',data)
 
-def get_all_restaurants(request):
-    restaurantName =  RestaurantSystemUser.objects.all()
-    html = ''
-    for r in restaurantName:
-        html += f'<h1>{r.reataurant}'
-    return render(request, 'catalog.html', restaurantName)
-    #return render(request, 'catalog.html',restaurantName)
-
+@login_required(login_url='login')
 def get_restaurants(request):
-    data = {'reataurant':RestaurantSystemUser.objects.all()}
-    return render(request,'catalog.html',data)
+    restaurants = Restaurant.objects.all()
+    return render(request,'catalog.html',{'restaurants':restaurants})
     
 
 def user_registration(request):
