@@ -2,6 +2,7 @@ from cgitb import html
 from multiprocessing import context
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
+from numpy import sort
 from .models import Restaurant
 from .models import RestaurantSystemUser
 from django.contrib.auth.forms import UserCreationForm
@@ -9,6 +10,9 @@ from .forms import CreateUserForm
 from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
+from django.http import HttpResponseRedirect
+from surprise import dump
+import pandas as pd
 
 # # Create your views here.
 # def welcome_message(request):
@@ -59,7 +63,17 @@ def login_page(request):
 
             if user is not None:
                 login(request,user)
-                return redirect('catalog')
+                model = dump.load("recommender")
+                algo = model[0]
+                item = pd.read_csv("restaurant.csv")
+                prediction = dict()
+                for restaurant in item.iloc[:, 0]:
+                    pred = algo.predict(username, restaurant, verbose=True)
+                    prediction[str(pred[1])] = float(pred[-2])
+                sorted(prediction.items())
+                return HttpResponse(prediction)
+
+        # return redirect('catalog')
             else: 
                 messages.info(request, 'Username/Password incorrect')
 
@@ -69,3 +83,25 @@ def login_page(request):
 def logoutuser(request):
     logout(request)
     return redirect ('login')
+def catalog(request):
+    data = {'restaurants': Restaurant.objects.all()}
+    return render(request, 'catalog.html',data)
+
+
+def login_test(request):
+    return render(request, 'login_test.html')
+
+def recommendation(request):
+    if request.method == "POST":
+        user = request.POST.get('username')
+        model = dump.load("recommender")
+        algo = model[0]
+        item = pd.read_csv("restaurant.csv")
+        prediction = list()
+        for restaurant in item.iloc[:, 0]:
+            pred = algo.predict(user, restaurant, verbose=True)
+            result = str(pred[1]) + "  " + str(pred[-2])
+            prediction.append(result)
+        return HttpResponse(prediction)
+
+    return render(request, "login_test.html")
