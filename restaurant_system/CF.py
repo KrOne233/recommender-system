@@ -42,3 +42,22 @@ for r in restaurant.iloc[:, 0]:
 
 restaurant["CO2"] = CO2
 restaurant.to_csv("restaurant_CO2_final.csv")
+
+restaurant_CO2 = pd.read_csv("restaurant_CO2_final.csv")
+mean = pd.read_csv("restaurant_CO2.csv").iloc[:, 2].mean()
+i = 0
+for restaurant in restaurant_CO2.iloc[:, 1]:
+    index = df[df.iloc[:, 2] == restaurant].index
+    df.iloc[index, 3] = float(restaurant_CO2.iloc[i, 2])
+    i += 1
+
+adjust_rating = list()
+for row in df.index:
+    if df.iloc[row, 3] == 0:
+        adjust_rating.append(0)
+    else:
+        adjust_rating.append(mean - df.iloc[row, 3])
+df["adjust"] = adjust_rating
+
+df.to_csv("user_rating_CO2.csv", index=False, encoding='utf-8')
+
