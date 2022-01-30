@@ -62,27 +62,17 @@ def login_page(request):
             user = authenticate(request, username=username, password=password)
 
             if user is not None:
-                login(request,user)
-                model = dump.load("recommender")
-                algo = model[0]
-                item = pd.read_csv("restaurant.csv")
-                prediction = dict()
-                for restaurant in item.iloc[:, 0]:
-                    pred = algo.predict(username, restaurant, verbose=True)
-                    prediction[str(pred[1])] = float(pred[-2])
-                sorted(prediction.items())
-                return HttpResponse(prediction)
-
-        # return redirect('catalog')
-            else: 
+                login(request, user)
+                return redirect('catalog')
+            else:
                 messages.info(request, 'Username/Password incorrect')
-
         context = {}
-        return render (request, 'login.html' , context)
+        return render(request, 'login.html', context)
 
 def logoutuser(request):
     logout(request)
     return redirect ('login')
+
 def catalog(request):
     data = {'restaurants': Restaurant.objects.all()}
     return render(request, 'catalog.html',data)
@@ -97,11 +87,11 @@ def recommendation(request):
         model = dump.load("recommender")
         algo = model[0]
         item = pd.read_csv("restaurant.csv")
-        prediction = list()
+        prediction = dict()
         for restaurant in item.iloc[:, 0]:
             pred = algo.predict(user, restaurant, verbose=True)
-            result = str(pred[1]) + "  " + str(pred[-2])
-            prediction.append(result)
-        return HttpResponse(prediction)
+            prediction[str(pred[1])] = float(pred[-2])
+        prediction_ordered = sorted(prediction.items(), key=lambda x: x[1], reverse=True)
+        return HttpResponse(prediction_ordered[0:6])
 
     return render(request, "login_test.html")
