@@ -30,6 +30,7 @@ def show_cover(request):
 #     data = {'rating': Restaurant.objects.all()}
 #     return render(request, 'catalog.html',data)
 
+#remove login required to unrestrict the catalog page 
 @login_required(login_url='login')
 def get_restaurants(request):
     restaurants = Restaurant.objects.all()
@@ -52,6 +53,34 @@ def user_registration(request):
         context = {'form':form}
         return render(request, 'registration.html',context)
 
+# def login_page(request):
+#     if request.user.is_authenticated:
+#         return redirect('catalog')
+#     else:
+#         if request.method == 'POST':
+#             username=request.POST.get('username')
+#             password=request.POST.get('password')
+#             user = authenticate(request, username=username, password=password)
+
+#             if user is not None:
+#                 login(request,user)
+#                 model = dump.load("recommender")
+#                 algo = model[0]
+#                 item = pd.read_csv("restaurant.csv")
+#                 prediction = dict()
+#                 for restaurant in item.iloc[:, 0]:
+#                     pred = algo.predict(username, restaurant, verbose=True)
+#                     prediction[str(pred[1])] = float(pred[-2])
+#                 sorted(prediction.items())
+#                 return HttpResponse(prediction)
+
+#         # return redirect('catalog')
+#             else: 
+#                 messages.info(request, 'Username/Password incorrect')
+
+#         context = {}
+#         return render (request, 'login.html' , context)
+
 def login_page(request):
     if request.user.is_authenticated:
         return redirect('catalog')
@@ -63,22 +92,13 @@ def login_page(request):
 
             if user is not None:
                 login(request,user)
-                model = dump.load("recommender")
-                algo = model[0]
-                item = pd.read_csv("restaurant.csv")
-                prediction = dict()
-                for restaurant in item.iloc[:, 0]:
-                    pred = algo.predict(username, restaurant, verbose=True)
-                    prediction[str(pred[1])] = float(pred[-2])
-                sorted(prediction.items())
-                return HttpResponse(prediction)
-
-        # return redirect('catalog')
+                return redirect('catalog')
             else: 
                 messages.info(request, 'Username/Password incorrect')
 
         context = {}
         return render (request, 'login.html' , context)
+
 
 def logoutuser(request):
     logout(request)
