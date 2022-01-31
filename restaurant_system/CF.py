@@ -41,7 +41,7 @@ for r in restaurant.iloc[:, 0]:
         CO2.append(0)
 
 restaurant["CO2"] = CO2
-restaurant.to_csv("restaurant_CO2_final.csv")
+restaurant.to_csv("restaurant_CO2_final.csv", )
 
 restaurant_CO2 = pd.read_csv("restaurant_CO2_final.csv")
 mean = pd.read_csv("restaurant_CO2.csv").iloc[:, 2].mean()
@@ -61,3 +61,15 @@ df["adjust"] = adjust_rating
 
 df.to_csv("user_rating_CO2.csv", index=False, encoding='utf-8')
 
+adjust_rating = list()
+for user in df.index:
+    if df.iloc[user, 3] == 0:
+        adjust_rating.append(df.iloc[user, 1])
+    elif df.iloc[user, 3] <= mean:
+        adjust_rating.append(df.iloc[user, 1] * (2 - df.iloc[user, 3] / mean))
+    elif df.iloc[user, 3] > mean:
+        adjust_rating.append(df.iloc[user, 1] / (2 - mean / df.iloc[user, 3]))
+
+df["adjust_rating"] = adjust_rating
+
+df.iloc[:,[0,1,2,3,5]].to_csv("user_rating_CO2.csv", index=False, encoding='utf-8')
