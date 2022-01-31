@@ -9,3 +9,4 @@ class RestaurantSystemUser(models.Model):
     user = models.TextField(blank=True, null=True)
     rating = models.IntegerField(blank=True, null=True)
     restaurant = models.TextField(blank=True, null=True)
+
