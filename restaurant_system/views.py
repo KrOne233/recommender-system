@@ -1,16 +1,21 @@
 from cgitb import html
 from multiprocessing import context
+
+import requests
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from numpy import sort
-from .models import Restaurant
-from .models import RestaurantSystemUser
+
+from .models import models, Restaurant
+from .models import Restaurantsystemuser
 from django.contrib.auth.forms import UserCreationForm
 from .forms import CreateUserForm
 from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponseRedirect
+from django.urls import reverse
+from urllib.parse import urlencode
 from surprise import dump
 import pandas as pd
 
@@ -65,7 +70,10 @@ def login_page(request):
 
             if user is not None:
                 login(request, user)
-                return redirect('catalog')
+                base_url = reverse('recommendation')
+                query_string = urlencode({'user': username})
+                url = '{}?{}'.format(base_url, query_string)
+                return redirect(url)
             else:
                 messages.info(request, 'Username/Password incorrect')
         context = {}
@@ -78,23 +86,33 @@ def logoutuser(request):
 
 def catalog(request):
     data = {'restaurants': Restaurant.objects.all()}
-    return render(request, 'catalog.html',data)
+    return render(request, 'catalog.html', data)
 
 
 def login_test(request):
     return render(request, 'login_test.html')
 
 def recommendation(request):
+    '''
     if request.method == "POST":
         user = request.POST.get('username')
-        model = dump.load("recommender")
-        algo = model[0]
-        item = pd.read_csv("restaurant.csv")
-        prediction = dict()
-        for restaurant in item.iloc[:, 0]:
-            pred = algo.predict(user, restaurant, verbose=True)
-            prediction[str(pred[1])] = float(pred[-2])
-        prediction_ordered = sorted(prediction.items(), key=lambda x: x[1], reverse=True)
-        return HttpResponse(prediction_ordered[0:6])
 
-    return render(request, "login_test.html")
+        '''
+    model = dump.load("recommender")
+    algo = model[0]
+#    item = pd.read_csv("restaurant.csv")
+    item = Restaurant.objects.all()
+    prediction = dict()
+    user = request.GET.get('user')
+#    for restaurant in item.iloc[:, 0]:
+    for restaurant in item:
+        pred = algo.predict(user, restaurant.name, verbose=True)
+        prediction[str(pred[1])] = float(pred[-2])
+        prediction_ordered = sorted(prediction.items(), key=lambda x: x[1], reverse=True)
+    data = list()
+    for p in prediction_ordered[0:6]:
+        restaurant_name = p[0]
+        data.append(item.filter(name=restaurant_name)[0])
+    return render(request, 'catalog.html', {'restaurants': data})
+
+
