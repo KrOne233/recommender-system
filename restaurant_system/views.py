@@ -5,7 +5,8 @@ import requests
 from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from numpy import sort
-from .models import Restaurant
+
+from .models import models, Restaurant
 from .models import Restaurantsystemuser
 from django.contrib.auth.forms import UserCreationForm
 from .forms import CreateUserForm
@@ -82,7 +83,7 @@ def logoutuser(request):
 
 def catalog(request):
     data = {'restaurants': Restaurant.objects.all()}
-    return render(request, 'catalog.html',data)
+    return render(request, 'catalog.html', data)
 
 
 def login_test(request):
@@ -96,11 +97,13 @@ def recommendation(request):
         '''
     model = dump.load("recommender")
     algo = model[0]
-    item = pd.read_csv("restaurant.csv")
+#    item = pd.read_csv("restaurant.csv")
+    item = Restaurant.objects.all()
     prediction = dict()
     user = request.GET.get('user')
-    for restaurant in item.iloc[:, 0]:
-        pred = algo.predict(user, restaurant, verbose=True)
+#    for restaurant in item.iloc[:, 0]:
+    for restaurant in item:
+        pred = algo.predict(user, restaurant.name, verbose=True)
         prediction[str(pred[1])] = float(pred[-2])
         prediction_ordered = sorted(prediction.items(), key=lambda x: x[1], reverse=True)
 
