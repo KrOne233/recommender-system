@@ -112,4 +112,9 @@ def recommendation(request):
         data.append(item.filter(name=restaurant_name)[0])
     return render(request, 'catalog.html', {'restaurants': data})
 
+def get_detail(request):
+    restaurant_name = request.GET.get('name')
+    item = Restaurant.objects.filter(name=restaurant_name)[0]
+    return HttpResponse(item)
+
 
