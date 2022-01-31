@@ -54,15 +54,15 @@ for user in df.index:
     if df.iloc[user, 3] == 0:
         adjust_rating.append(df.iloc[user, 1])
     elif df.iloc[user, 3] <= mean:
-        adjust_rating.append(df.iloc[user, 1] * (2 - df.iloc[user, 3] / mean))
+        adjust_rating.append(df.iloc[user, 1] * (1 + (1 - df.iloc[user, 3] / mean)/4))
     elif df.iloc[user, 3] > mean:
-        adjust_rating.append(df.iloc[user, 1] / (2 - mean / df.iloc[user, 3]))
+        adjust_rating.append(df.iloc[user, 1] / (1 + (1 - mean / df.iloc[user, 3])/4))
 
 df["adjust_rating"] = adjust_rating
 
 df.iloc[:,[0,1,2,3,5]].to_csv("user_rating_CO2.csv", index=False, encoding='utf-8')
 
-reader = Reader(rating_scale=(0, 10))
+reader = Reader(rating_scale=(0, 5*(1+1/4)))
 data = Dataset.load_from_df(df[['User', 'Restaurant_name', 'adjust_rating']], reader)
 train_set, test_set = train_test_split(data, test_size=0.1, random_state=0)
 algo = SVD(n_factors=400, n_epochs=100, biased=True, verbose=1)
