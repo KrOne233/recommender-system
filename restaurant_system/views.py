@@ -35,6 +35,7 @@ def show_cover(request):
 #     data = {'rating': Restaurant.objects.all()}
 #     return render(request, 'catalog.html',data)
 
+#remove login required to unrestrict the catalog page 
 @login_required(login_url='login')
 def get_restaurants(request):
     restaurants = Restaurant.objects.all()
@@ -57,6 +58,7 @@ def user_registration(request):
         context = {'form':form}
         return render(request, 'registration.html',context)
 
+
 def login_page(request):
     if request.user.is_authenticated:
         return redirect('catalog')
@@ -76,6 +78,7 @@ def login_page(request):
                 messages.info(request, 'Username/Password incorrect')
         context = {}
         return render(request, 'login.html', context)
+
 
 def logoutuser(request):
     logout(request)
