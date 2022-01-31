@@ -106,7 +106,10 @@ def recommendation(request):
         pred = algo.predict(user, restaurant.name, verbose=True)
         prediction[str(pred[1])] = float(pred[-2])
         prediction_ordered = sorted(prediction.items(), key=lambda x: x[1], reverse=True)
+    data = list()
+    for p in prediction_ordered[0:6]:
+        restaurant_name = p[0]
+        data.append(item.filter(name=restaurant_name)[0])
+    return render(request, 'catalog.html', {'restaurants': data})
 
-    return HttpResponse(prediction_ordered[0:6])
 
-#    return render(request, "login_test.html")

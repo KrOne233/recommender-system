@@ -4,9 +4,10 @@ from django.db import models
 
 class Restaurant(models.Model):
 #    id = models.BigAutoField(primary_key=True)
-    name = models.CharField(max_length=200)
+    name = models.CharField(max_length=200, name="name")
     location = models.CharField(max_length=200, blank=True, null=True)
     rating = models.FloatField(blank=True, null=True)
+    objects = models.Manager()
 
     class Meta:
         managed = False
@@ -19,6 +20,7 @@ class Restaurantsystemuser(models.Model):
     user = models.CharField(max_length=200, blank=True, null=True)
     rating = models.FloatField(blank=True, null=True)
     restaurant = models.CharField(max_length=200, blank=True, null=True)
+    objects = models.Manager()
 
     class Meta:
         managed = False
