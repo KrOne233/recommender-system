@@ -73,3 +73,5 @@ accuracy.rmse(predictions)
 user_id, item_id, r_ui = test_set[0]
 pred = algo.predict(user_id, item_id, r_ui, verbose=True)
 dump.dump('recommender', algo, verbose=1)
+
+pd.read_csv("restaurant.csv").to_csv("restaurant.csv", index=False, encoding='utf-8')

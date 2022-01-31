@@ -1,9 +1,10 @@
+import pandas as pd
 from django.db import models
 
 class Restaurant(models.Model):
     name = models.CharField(max_length=200)
-    location = models.CharField(max_length=200)
-    rating = models.FloatField()
+    location = models.CharField(max_length=200, blank=True, null=True)
+    rating = models.FloatField(blank=True, null=True)
 
 class Restaurantsystemuser(models.Model):
 #    id = models.IntegerField(primary_key=True)
@@ -14,3 +15,4 @@ class Restaurantsystemuser(models.Model):
     class Meta:
         managed = False
         db_table = 'restaurantsystemuser'
+

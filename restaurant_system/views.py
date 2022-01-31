@@ -103,6 +103,7 @@ def recommendation(request):
         pred = algo.predict(user, restaurant, verbose=True)
         prediction[str(pred[1])] = float(pred[-2])
         prediction_ordered = sorted(prediction.items(), key=lambda x: x[1], reverse=True)
+
     return HttpResponse(prediction_ordered[0:6])
 
 #    return render(request, "login_test.html")
