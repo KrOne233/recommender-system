@@ -65,7 +65,7 @@ df.iloc[:,[0,1,2,3,5]].to_csv("user_rating_CO2.csv", index=False, encoding='utf-
 reader = Reader(rating_scale=(0, 10))
 data = Dataset.load_from_df(df[['User', 'Restaurant_name', 'adjust_rating']], reader)
 train_set, test_set = train_test_split(data, test_size=0.1, random_state=0)
-algo = SVD(n_factors=350, n_epochs=100, biased=True, verbose=1)
+algo = SVD(n_factors=400, n_epochs=100, biased=True, verbose=1)
 # cross_validate(algo, data, measures=['RMSE', 'MAE'], cv=10, verbose=True)
 algo.fit(train_set)
 predictions = algo.test(test_set)
