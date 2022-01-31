@@ -9,18 +9,6 @@ from surprise import dump
 from fuzzywuzzy import fuzz
 
 df = pd.read_excel("user_dataset_final.xlsx")
-df_algo = df.sample(frac=0.9)
-reader = Reader(rating_scale=(1, 5))
-data = Dataset.load_from_df(df[['User', 'Restaurant_name', 'Rating']], reader)
-train_set, test_set = train_test_split(data, test_size=0.25, random_state=0)
-algo = SVD(n_factors=350, n_epochs=100, biased=True, verbose=1)
-# cross_validate(algo, data, measures=['RMSE', 'MAE'], cv=10, verbose=True)
-algo.fit(train_set)
-predictions = algo.test(test_set)
-accuracy.rmse(predictions)
-user_id, item_id, r_ui = test_set[0]
-pred = algo.predict(user_id, item_id, r_ui, verbose=True)
-dump.dump('recommender', algo, verbose=1)
 
 df.iloc[:, 2].drop_duplicates(keep='first').to_csv("restaurant.csv", index=False)
 
@@ -73,3 +61,15 @@ for user in df.index:
 df["adjust_rating"] = adjust_rating
 
 df.iloc[:,[0,1,2,3,5]].to_csv("user_rating_CO2.csv", index=False, encoding='utf-8')
+
+reader = Reader(rating_scale=(0, 10))
+data = Dataset.load_from_df(df[['User', 'Restaurant_name', 'adjust_rating']], reader)
+train_set, test_set = train_test_split(data, test_size=0.1, random_state=0)
+algo = SVD(n_factors=350, n_epochs=100, biased=True, verbose=1)
+# cross_validate(algo, data, measures=['RMSE', 'MAE'], cv=10, verbose=True)
+algo.fit(train_set)
+predictions = algo.test(test_set)
+accuracy.rmse(predictions)
+user_id, item_id, r_ui = test_set[0]
+pred = algo.predict(user_id, item_id, r_ui, verbose=True)
+dump.dump('recommender', algo, verbose=1)
