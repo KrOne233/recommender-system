@@ -54,15 +54,15 @@ for user in df.index:
     if df.iloc[user, 3] == 0:
         adjust_rating.append(df.iloc[user, 1])
     elif df.iloc[user, 3] <= mean:
-        adjust_rating.append(df.iloc[user, 1] * (1 + (1 - df.iloc[user, 3] / mean)/4))
+        adjust_rating.append(df.iloc[user, 1] * (1 + (1 - df.iloc[user, 3] / mean) / 4))
     elif df.iloc[user, 3] > mean:
-        adjust_rating.append(df.iloc[user, 1] / (1 + (1 - mean / df.iloc[user, 3])/4))
+        adjust_rating.append(df.iloc[user, 1] / (1 + (1 - mean / df.iloc[user, 3]) / 4))
 
 df["adjust_rating"] = adjust_rating
 
-df.iloc[:,[0,1,2,3,5]].to_csv("user_rating_CO2.csv", index=False, encoding='utf-8')
+df.iloc[:, [0, 1, 2, 3, 5]].to_csv("user_rating_CO2.csv", index=False, encoding='utf-8')
 
-reader = Reader(rating_scale=(0, 5*(1+1/4)))
+reader = Reader(rating_scale=(0, 5 * (1 + 1 / 4)))
 data = Dataset.load_from_df(df[['User', 'Restaurant_name', 'adjust_rating']], reader)
 train_set, test_set = train_test_split(data, test_size=0.1, random_state=0)
 algo = SVD(n_factors=400, n_epochs=100, biased=True, verbose=1)
@@ -75,3 +75,11 @@ pred = algo.predict(user_id, item_id, r_ui, verbose=True)
 dump.dump('recommender', algo, verbose=1)
 
 pd.read_csv("restaurant.csv").to_csv("restaurant.csv", index=False, encoding='utf-8')
+
+restaurants = pd.read_csv("restaurant.csv")
+
+avg_rating = list()
+for restaurant in restaurants.iloc[:, 0]:
+    avg_rating.append(round(df[df.iloc[:, 2] == restaurant].iloc[:, 1].mean(), 1))
+restaurants["avg_rating"] = avg_rating
+restaurants.to_csv("restaurant.csv", index=False, encoding='utf-8')

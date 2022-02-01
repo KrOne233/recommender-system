@@ -6,10 +6,10 @@ from django.shortcuts import render, redirect
 from django.http import HttpResponse
 from numpy import sort
 
-from .models import models, Restaurant
+from .models import models, Restaurant, Menu
 from .models import Restaurantsystemuser
 from django.contrib.auth.forms import UserCreationForm
-from .forms import CreateUserForm
+from .forms import CreateUserForm, Rating
 from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
@@ -117,7 +117,27 @@ def recommendation(request):
 
 def get_detail(request):
     restaurant_name = request.GET.get('name')
-    item = Restaurant.objects.filter(name=restaurant_name)[0]
-    return HttpResponse(item)
+    user = request.GET.get('user')
+    menus = Menu.objects.filter(restaurant__iexact=restaurant_name)
+    if menus.exists():
+        return render(request, 'menu.html', {'menus': menus, 'user': user, 'name': restaurant_name})
+    else:
+        menu = Menu()
+        menu.restaurant = restaurant_name
+        menu.menu = "not available"
+        menu.description = "not available"
+        return render(request, 'menu.html', {'menus': [menu], 'user': user, 'name': restaurant_name})
+
+def rating(request):
+    user = request.GET.get('user')
+    restaurant_name = request.GET.get('name')
+    if request.method == "POST":
+        form = Rating(request.POST)
+        if form.is_valid():
+            rate = request.POST.get('rating')
+            Restaurantsystemuser.objects.create(user=user, rating=rate, restaurant=restaurant_name)
+            return HttpResponse("Thanks for rating")
+        else:
+            return HttpResponse("invalid input, please return")
 
 

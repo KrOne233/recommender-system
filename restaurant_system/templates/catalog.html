@@ -57,7 +57,7 @@
                             <h2 class="card-title">{{r.name}}</h2>
                             <p class="card-text">{{r.location}}</p>
                         </div>
-                        <div class="card-footer"><a class="btn btn-primary btn-sm" href='http://127.0.0.1:8000/restaurant_system/detail/?name={{r.name}}' >{{r.rating}} </a></div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href='http://127.0.0.1:8000/restaurant_system/detail/?name={{r.name}}&user={{request.user}}' >{{r.rating}} </a></div>
                         
                     </div>
                     

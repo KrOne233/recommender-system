@@ -10,3 +10,7 @@ class CreateUserForm(UserCreationForm):
         # ['username','email','password1','password2']
         
         # '__all__' 
+
+class Rating(forms.Form):
+    rating = forms.DecimalField(max_value=5, min_value=1, decimal_places=1)
+

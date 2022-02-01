@@ -12,5 +12,6 @@ urlpatterns = [
     path('login_test/', views.login_test),
     path('index/', views.recommendation, name='recommendation'),
     path('detail/', views.get_detail, name='detail'),
+    path('rating/', views.rating, name='rating'),
 ]
 
