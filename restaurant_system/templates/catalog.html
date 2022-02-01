@@ -57,9 +57,9 @@
                           
                           {% for r in restaurants%}
                             <h2 class="card-title">{{r.name}}</h2>
-                            <p class="card-text">{{r.rating}}</p>
+                            <p class="card-text">Rating: {{r.rating}}</p>
                         </div>
-                        <div class="card-footer"><a class="btn btn-primary btn-sm" href='http://127.0.0.1:8000/restaurant_system/detail/?name={{r.name}}&user={{request.user}}' >{{r.co2_score}} </a></div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href='http://127.0.0.1:8000/restaurant_system/detail/?name={{r.name}}&user={{request.user}}' >CO2 Score: {{r.co2_score}} </a></div>
                         
                     </div>
                     
