@@ -10,7 +10,7 @@ from fuzzywuzzy import fuzz
 
 df = pd.read_excel("user_dataset_final.xlsx")
 
-df.iloc[:, 2].drop_duplicates(keep='first').to_csv("restaurant.csv", index=False)
+df.iloc[:, 2].drop_duplicates(keep='first').to_csv("restaurant.csv", index=False, encoding='utf-8')
 
 # matching the restaurants of restaurant_rating and restaurant_CO2
 restaurant_CO2 = pd.read_csv("restaurant_CO2.csv")
@@ -92,3 +92,15 @@ restaurants_avg["CO2 score"] = restaurants.iloc[:, 2]
 for i in restaurants_avg[restaurants_avg.iloc[:,2] != 0].index:
     restaurants_avg.iloc[i, 2] = round(mean-restaurants_avg.iloc[i, 2], 2)
 restaurants_avg.to_csv("restaurant.csv", index=False, encoding='utf-8')
+
+# modify restaurant name in menu to match the name in restaurant.csv
+restaurant_CO2 = pd.read_csv("restaurant_CO2.csv")
+restaurant = pd.read_csv("restaurant.csv")
+menu = pd.read_csv("menu.csv")
+for i in restaurant_CO2.iloc[:,1]:
+    for j in restaurant.iloc[:,0]:
+        if fuzz.ratio(str(i).lower(),str(j).lower())>=90:
+            for k in menu[menu.iloc[:,0]==i].index:
+                menu.iloc[k, 0]= j
+                print(i,menu.iloc[k, 0],j)
+menu.to_csv("menu.csv", index=False, encoding='utf-8')

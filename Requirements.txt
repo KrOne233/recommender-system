@@ -6,3 +6,7 @@ PyMySQL~=1.0.2
 pandas~=1.2.4
 surprise~=0.1
 fuzzywuzzy~=0.18.0
+requests~=2.26.0
+numpy~=1.20.2
+spacy~=3.2.1
+nltk~=3.6.7

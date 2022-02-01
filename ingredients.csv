@@ -1,0 +1,1395 @@
+,ingredient,foodCategory1,foodCategory2,is_differ
+0,beef patty,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+1,onions,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+2,pastrami,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+3,lettuce,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+4,pickles,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+5,pulled chicken,Poultry Products,Poultry Products,0
+6,cheese sauce,Dairy and Egg Products,Dairy and Egg Products,0
+7,tomatoes,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+8,chili sauce,"Soups, Sauces, and Gravies","Soups, Sauces, and Gravies",0
+9,Meat,Restaurant Foods,Poultry Products,1
+10,fried onions,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+11,onion rings,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+12,mozzarella,Dairy and Egg Products,Restaurant Foods,1
+13,cherry mayonnaise,Fats and Oils,Fats and Oils,0
+14,chicken,Poultry Products,Poultry Products,0
+15,Fish,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+16,sucuk,0,0,0
+17,beef sausage,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+18,French fries,Restaurant Foods,Sausages and Luncheon Meats,1
+19,french fries,Restaurant Foods,Sausages and Luncheon Meats,1
+20,cheese,Dairy and Egg Products,Dairy and Egg Products,0
+21,Capresewith Mozzarella,Dairy and Egg Products,Restaurant Foods,1
+22,pickled seafood,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+23,chili,Restaurant Foods,Legumes and Legume Products,1
+24,Parma ham,Pork Products,Sausages and Luncheon Meats,1
+25,Parmesan,Dairy and Egg Products,Dairy and Egg Products,0
+26,olive,Fats and Oils,Fats and Oils,0
+27,Mozzarella,Dairy and Egg Products,Restaurant Foods,1
+28,honey,Sweets,Breakfast Cereals,1
+29,goat cheese,Dairy and Egg Products,Dairy and Egg Products,0
+30,spicy salami,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+31,ham,Pork Products,Sausages and Luncheon Meats,1
+32,tuna,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+33,truffle salami,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+34,truffle cheese,Dairy and Egg Products,Dairy and Egg Products,0
+35,truffle oil,Fats and Oils,Fats and Oils,0
+36,Pasta,"Soups, Sauces, and Gravies",Cereal Grains and Pasta,1
+37,lemon oil,Fats and Oils,Fats and Oils,0
+38,Truffle,Sausages and Luncheon Meats,Sweets,1
+39,Ravioli,"Meals, Entrees, and Side Dishes",Baby Foods,1
+40,Ricotta,Dairy and Egg Products,Dairy and Egg Products,0
+41,Spinach4,0,0,0
+42,Lemon5,0,0,0
+43,Lemon,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+44,Unfilled Gnocchi,0,0,0
+45,Gnocchi,0,0,0
+46,Porcini Mushrooms,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+47,Cheese,Dairy and Egg Products,Dairy and Egg Products,0
+48,sauce,"Soups, Sauces, and Gravies","Soups, Sauces, and Gravies",0
+49,beef,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+50,peas,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+51,spinach sauce,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+52,vegetables,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+53,cucumber,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+54,carrots,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+55,apple,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+56,mango,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+57,oranges,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+58,grapes,Vegetables and Vegetable Products,Fruits and Fruit Juices,1
+59,Lentil Soup,"Soups, Sauces, and Gravies","Soups, Sauces, and Gravies",0
+60,ginger,Vegetables and Vegetable Products,Spices and Herbs,1
+61,coconut milk,Fats and Oils,Dairy and Egg Products,1
+62,beans,Legumes and Legume Products,Legumes and Legume Products,0
+63,lentils,Legumes and Legume Products,Vegetables and Vegetable Products,1
+64,Beef,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+65,rosamarine,0,0,0
+66,Chicken Curry,Poultry Products,Poultry Products,0
+67,rice,Cereal Grains and Pasta,Cereal Grains and Pasta,0
+68,Carrot Cakevegan,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+69,Cheesecake,Baked Products,Baked Products,0
+70,Chocolate Cake,Baked Products,Baked Products,0
+71,dates,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+72,chocolate,Beverages,Sweets,1
+73,lime,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+74,bananas,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+75,coffee,Legumes and Legume Products,Beverages,1
+76,milk,Dairy and Egg Products,Beverages,1
+77,Carrot Juice,Vegetables and Vegetable Products,Fruits and Fruit Juices,1
+78,Orange,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+79,Tokyo Chicken,Poultry Products,Poultry Products,0
+80,Delicious karaage,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+81,Deep-fried chicken,Restaurant Foods,Sausages and Luncheon Meats,1
+82,baked salmon,Baked Products,Baked Products,0
+83,Japanese vegetables,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+84,The vegetables,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+85,meat,Restaurant Foods,Poultry Products,1
+86,spinach,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+87,radish,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+88,soy strips,Legumes and Legume Products,Legumes and Legume Products,0
+89,zucchini,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+90,each,0,0,0
+91,salmon,Fats and Oils,Finfish and Shellfish Products,1
+92,prawns,0,0,0
+93,cheddar cheese,Dairy and Egg Products,Dairy and Egg Products,0
+94,red onions,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+95,pickled cucumbers,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+96,twohearty,0,0,0
+97,garlic sausage,Vegetables and Vegetable Products,Sausages and Luncheon Meats,1
+98,Gouda,Dairy and Egg Products,0,1
+99,cheddar,Dairy and Egg Products,Dairy and Egg Products,0
+100,pickled eggplant,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+101,cole slaw,0,0,0
+102,Gouda cheese,Dairy and Egg Products,Dairy and Egg Products,0
+103,pumpkin seeds,Nut and Seed Products,Nut and Seed Products,0
+104,pine nuts,Nut and Seed Products,Nut and Seed Products,0
+105,tomato,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+106,Pastrami Sandwichgenerously,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+107,pickled cucumber,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+108,ground coffee,Sausages and Luncheon Meats,Poultry Products,1
+109,whole beans,Dairy and Egg Products,Dairy and Egg Products,0
+110,ground filter,Sausages and Luncheon Meats,Poultry Products,1
+111,ground mocha,Sausages and Luncheon Meats,Poultry Products,1
+112,500gwhole bean,Legumes and Legume Products,Legumes and Legume Products,0
+113,brown sugar,Cereal Grains and Pasta,Sweets,1
+114,chocolate pieces,Sweets,Sweets,0
+115,butter crumble,Poultry Products,Dairy and Egg Products,1
+116,walnut chips,Fats and Oils,Nut and Seed Products,1
+117,cranberries,Legumes and Legume Products,Fruits and Fruit Juices,1
+118,Fruits,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+119,cereals,Cereal Grains and Pasta,Cereal Grains and Pasta,0
+120,Limonade Blueberry,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+121,parmesan,Dairy and Egg Products,Dairy and Egg Products,0
+122,croutons,Baked Products,Baked Products,0
+123,cocktail tomatoes,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+124,jalapenos,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+125,tortillas,American Indian/Alaska Native Foods,Snacks,1
+126,avocado basil,Fats and Oils,Fruits and Fruit Juices,1
+127,bun,Baked Products,Baked Products,0
+128,beefsteak tomatoes,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+129,brioche,0,0,0
+130,guacamole,0,0,0
+131,pico,0,0,0
+132,buns,Baked Products,Baked Products,0
+133,double bacon,Pork Products,Fast Foods,1
+134,pickled jalapeños,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+135,bacon,Pork Products,Legumes and Legume Products,1
+136,chopped fries,Restaurant Foods,Sausages and Luncheon Meats,1
+137,blue cheese,Dairy and Egg Products,Dairy and Egg Products,0
+138,buttermilk ranch,Dairy and Egg Products,Dairy and Egg Products,0
+139,fig jam,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+140,wholemeal rolls,Baked Products,Baked Products,0
+141,"
+Romaine lettuce",Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+142,avocado,Fats and Oils,Fruits and Fruit Juices,1
+143,inner fillets,Legumes and Legume Products,Poultry Products,1
+144,free-range chicken,Dairy and Egg Products,Poultry Products,1
+145,alfalfa sprouts,Vegetables and Vegetable Products,Cereal Grains and Pasta,1
+146,Bacon,Pork Products,Legumes and Legume Products,1
+147,gouda,Dairy and Egg Products,0,1
+148,fries,Restaurant Foods,Sausages and Luncheon Meats,1
+149,pickled jalapenos,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+150,Buttermilk Ranch,Dairy and Egg Products,Dairy and Egg Products,0
+151,French Fries,Restaurant Foods,Sausages and Luncheon Meats,1
+152,Avocado Friedvegan,Fats and Oils,Fruits and Fruit Juices,1
+153,Strawberry Milkshake,Fruits and Fruit Juices,Dairy and Egg Products,1
+154,inkl,0,0,0
+155,asparagus,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+156,lemon,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+157,soy,Legumes and Legume Products,Legumes and Legume Products,0
+158,hearty cheddar,Dairy and Egg Products,"Soups, Sauces, and Gravies",1
+159,mascarpone powder,Fruits and Fruit Juices,Sweets,1
+160,chili peppers,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+161,cinnamon,Baked Products,Baked Products,0
+162,chicken wings,Poultry Products,Poultry Products,0
+163,spring onions,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+164,Sauced Chicken,"Soups, Sauces, and Gravies","Soups, Sauces, and Gravies",0
+165,sauced chicken,"Soups, Sauces, and Gravies","Soups, Sauces, and Gravies",0
+166,side dish,Fast Foods,Fast Foods,0
+167,Fried Chicken,Restaurant Foods,Sausages and Luncheon Meats,1
+168,fried chicken,Restaurant Foods,Sausages and Luncheon Meats,1
+169,vegetable garnish,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+170,Kimchi,Vegetables and Vegetable Products,0,1
+171,kimchi,Vegetables and Vegetable Products,0,1
+172,fish cakes,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+173,white cabbage,Dairy and Egg Products,Vegetables and Vegetable Products,1
+174,spring,Cereal Grains and Pasta,Beverages,1
+175,French,Baked Products,Restaurant Foods,1
+176,Pom-Cheesecrispy fries,Restaurant Foods,Sausages and Luncheon Meats,1
+177,powdered cheese,Dairy and Egg Products,Dairy and Egg Products,0
+178,Vöslauer Sparkling,Beverages,Beverages,0
+179,Salatmix,0,0,0
+180,Gurke,0,0,0
+181,Avocado,Fats and Oils,Fruits and Fruit Juices,1
+182,Cheddar,Dairy and Egg Products,Dairy and Egg Products,0
+183, inkl,0,0,0
+184,soft cheese,Baked Products,Dairy and Egg Products,1
+185,baguette,0,0,0
+186,roasted vegetables,Beef Products,Nut and Seed Products,1
+187,Fries,Restaurant Foods,Sausages and Luncheon Meats,1
+188,Sweetpotato Fries,Restaurant Foods,Sausages and Luncheon Meats,1
+189,Butter Chicken,Dairy and Egg Products,Dairy and Egg Products,0
+190,tender,Restaurant Foods,Fast Foods,1
+191,butter,Dairy and Egg Products,Dairy and Egg Products,0
+192,cream,Dairy and Egg Products,Dairy and Egg Products,0
+193,Chicken,Poultry Products,Poultry Products,0
+194,course,0,0,0
+195,the Chicken,Poultry Products,Poultry Products,0
+196,house,Legumes and Legume Products,Legumes and Legume Products,0
+197,German potatoes,Baked Products,Vegetables and Vegetable Products,1
+198,Indian spinach,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+199,potatoes,Baked Products,Vegetables and Vegetable Products,1
+200,Raita Joghurt,0,0,0
+201,fresh vegetables,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+202,Noodleswith shrimp,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+203,Noodle Soup,"Soups, Sauces, and Gravies","Soups, Sauces, and Gravies",0
+204,rolls,Baked Products,Baked Products,0
+205,shrimp filling,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+206,fried dumplings,Restaurant Foods,Sausages and Luncheon Meats,1
+207,pork,Restaurant Foods,Pork Products,1
+208,shrimp,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+209,steamed dumplings,American Indian/Alaska Native Foods,American Indian/Alaska Native Foods,0
+210,dumplings,American Indian/Alaska Native Foods,"Meals, Entrees, and Side Dishes",1
+211,mushrooms,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+212,butter mushrooms,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+213,porcini,0,0,0
+214,sesame,Sweets,Fats and Oils,1
+215,Tiger Shrimp,Sweets,Finfish and Shellfish Products,1
+216,Wokwith chilli,0,0,0
+217,black pepper,Legumes and Legume Products,Spices and Herbs,1
+218,pancakes,Vegetables and Vegetable Products,Baked Products,1
+219,chicken pieces,Poultry Products,Poultry Products,0
+220,Char,0,0,0
+221,minced meat,Restaurant Foods,Poultry Products,1
+222,Seasonal Vegetables,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+223,coconut cream,Fats and Oils,Nut and Seed Products,1
+224,fillet,Legumes and Legume Products,Poultry Products,1
+225,mustard,Spices and Herbs,Fats and Oils,1
+226,grilled cheese,Dairy and Egg Products,Dairy and Egg Products,0
+227,grilled aubergine,Beef Products,Vegetables and Vegetable Products,1
+228,aioli,0,0,0
+229,pea protein,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+230,fresh onions,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+231,cucumbers,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+232,Irish Cheddar,Dairy and Egg Products,Baked Products,1
+233,Jalapeño Cheese,Dairy and Egg Products,Dairy and Egg Products,0
+234,jalapeños,0,0,0
+235,Chipotle,0,0,0
+236,Honey Mustard,Spices and Herbs,Fats and Oils,1
+237,Blueberry Muffin,Baked Products,Baked Products,0
+238,Cheesecake Muffin,Baked Products,Baked Products,0
+239,Blueberry,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+240,Hamburger,Fast Foods,Fast Foods,0
+241,Cheeseburgerwith cheese,Dairy and Egg Products,Dairy and Egg Products,0
+242,Hamburger Menu,Restaurant Foods,Restaurant Foods,0
+243,Cheese Menu,Dairy and Egg Products,Dairy and Egg Products,0
+244,Sweet potatoes,Restaurant Foods,Sweets,1
+245,chicken skewers,Poultry Products,Poultry Products,0
+246,chicken filling,Poultry Products,Poultry Products,0
+247,crispy prawns,Fast Foods,Fast Foods,0
+248,coconut coating,Fats and Oils,Baked Products,1
+249,wonton batter,"Soups, Sauces, and Gravies","Meals, Entrees, and Side Dishes",1
+250,fish sauce,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+251,"
+Vegetable soup","Soups, Sauces, and Gravies","Soups, Sauces, and Gravies",0
+252,Chinese cabbage,Restaurant Foods,Restaurant Foods,0
+253,soy sauce,Legumes and Legume Products,Legumes and Legume Products,0
+254,broccoli,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+255,leek,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+256,celery,Vegetables and Vegetable Products,Spices and Herbs,1
+257,bean sprouts,Legumes and Legume Products,Legumes and Legume Products,0
+258,morels,Vegetables and Vegetable Products,0,1
+259,bell pepper,Fast Foods,Fast Foods,0
+260,pepper,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+261,pineapple,Sweets,Baby Foods,1
+262,eggplant,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+263,zucchini beans,Legumes and Legume Products,Legumes and Legume Products,0
+264,lychee,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+265,various vegetables,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+266,tamarind sauce,"Soups, Sauces, and Gravies","Soups, Sauces, and Gravies",0
+267,lettuce leaves,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+268,lemon dressing,Fats and Oils,Fats and Oils,0
+269,leeks,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+270,peppers,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+271,bell peppers,Fast Foods,Fast Foods,0
+272,champions,0,0,0
+273,tamarind,Sweets,Fruits and Fruit Juices,1
+274,aubergines,0,0,0
+275,lemon leaves,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+276,Bionade Elderberry,Fruits and Fruit Juices,0,1
+277,iceberg lettuce,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+278,salsa,"Soups, Sauces, and Gravies","Soups, Sauces, and Gravies",0
+279,grilled beef,Beef Products,Sausages and Luncheon Meats,1
+280,taco,Fast Foods,Fast Foods,0
+281,Chips,Snacks,Snacks,0
+282,cream cheese,Dairy and Egg Products,Dairy and Egg Products,0
+283,Nachostortilla chips,Snacks,Snacks,0
+284,chips,Snacks,Snacks,0
+285,chicken mix,Poultry Products,Poultry Products,0
+286,Steakhouse fries,Restaurant Foods,Sausages and Luncheon Meats,1
+287,Potato Wedges,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+288,mango dip,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+289,orange,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+290,Veggie Burritowith,Legumes and Legume Products,0,1
+291,Chicken Burritowith,Poultry Products,Poultry Products,0
+292,Veggie Saladwith,Legumes and Legume Products,0,1
+293,Chicken Saladwith,Poultry Products,Poultry Products,0
+294,Veggie Cupwith,Legumes and Legume Products,0,1
+295,Chicken Cup,Poultry Products,Poultry Products,0
+296,jack cheese,Dairy and Egg Products,Dairy and Egg Products,0
+297,Chicken Quesadillawith,Poultry Products,Poultry Products,0
+298,100% beef,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+299,Sweet Cheese,Restaurant Foods,Dairy and Egg Products,1
+300,Beef Cheese,Sausages and Luncheon Meats,Dairy and Egg Products,1
+301,wheat tortilla,Cereal Grains and Pasta,Baked Products,1
+302,cheddar sauce,Dairy and Egg Products,"Soups, Sauces, and Gravies",1
+303,Chicken Cheese,Dairy and Egg Products,Dairy and Egg Products,0
+304,piquant fries,Restaurant Foods,Sausages and Luncheon Meats,1
+305,spicy tomatillos,Vegetables and Vegetable Products,Fast Foods,1
+306,ripe avocados,Fruits and Fruit Juices,Vegetables and Vegetable Products,1
+307,buffalo mozzarella,Dairy and Egg Products,Dairy and Egg Products,0
+308,various seafood,0,0,0
+309,burrata,0,0,0
+310,green salad,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+311,cherry tomatoes,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+312,olives,Fats and Oils,Fats and Oils,0
+313,Gorgonzola sauce,"Soups, Sauces, and Gravies","Soups, Sauces, and Gravies",0
+314,Penne,Cereal Grains and Pasta,Cereal Grains and Pasta,0
+315,all,Cereal Grains and Pasta,Cereal Grains and Pasta,0
+316,tomato sauce,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+317,Calabrian chili,Restaurant Foods,Legumes and Legume Products,1
+318,Spaghetti Aglio,"Soups, Sauces, and Gravies",Restaurant Foods,1
+319,Spaghetti Carbonara,"Soups, Sauces, and Gravies",Restaurant Foods,1
+320,guanciale,0,0,0
+321,oregano,Spices and Herbs,0,1
+322,cocktail,Beverages,Beverages,0
+323,artichokes,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+324,grilled zucchini,Beef Products,Vegetables and Vegetable Products,1
+325,Profiteroles2 pieces,Sweets,Sweets,0
+326,Orangina Orange,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+327,Schöfferhofer Grapefruit,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+328,Mango,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+329,einer,0,0,0
+330,Chili,Restaurant Foods,Legumes and Legume Products,1
+331,Büchin,0,0,0
+332,Joghurt,0,0,0
+333,Zitrone,0,0,0
+334,Butter serviert,Dairy and Egg Products,Dairy and Egg Products,0
+335,geräucherten Auberginen,0,0,0
+336,Butter,Dairy and Egg Products,Dairy and Egg Products,0
+337,Chicken Biryani,Poultry Products,Poultry Products,0
+338,Beetroot,0,0,0
+339,Potato RaitaJoghurt,Baked Products,Vegetables and Vegetable Products,1
+340,Butter Naan,Dairy and Egg Products,Dairy and Egg Products,0
+341,bitter Limette,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+342,frischerm,0,0,0
+343,"vegetarian
+hand cheese",Dairy and Egg Products,Dairy and Egg Products,0
+344,music,0,0,0
+345,Goat Cheese,Dairy and Egg Products,Dairy and Egg Products,0
+346,fried potatoes,Restaurant Foods,Sausages and Luncheon Meats,1
+347,Bratwurst3 sausages,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+348,boiled potatoes,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+349,bread,Baked Products,Baked Products,0
+350,Pork,Restaurant Foods,Pork Products,1
+351,Pork rib,Restaurant Foods,Pork Products,1
+352,Kalewith meatloaf,Legumes and Legume Products,0,1
+353,cucumber salad,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+354,green sauce,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+355,Frankfurter Schlachtplatteblood,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+356,liver sausage,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+357,ribs,"Lamb, Veal, and Game Products","Lamb, Veal, and Game Products",0
+358,liver dumplings,Poultry Products,Sausages and Luncheon Meats,1
+359,jerky meat,Restaurant Foods,Poultry Products,1
+360,leg,Finfish and Shellfish Products,Poultry Products,1
+361,Turkey Schnitzelbreaded,Sausages and Luncheon Meats,Poultry Products,1
+362,leaf spinach,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+363,almond,Beverages,Nut and Seed Products,1
+364,cardamom,Spices and Herbs,0,1
+365,Chicken Chilli,Poultry Products,Poultry Products,0
+366,Mutton KormaLamb,American Indian/Alaska Native Foods,American Indian/Alaska Native Foods,0
+367,almonds,Beverages,Nut and Seed Products,1
+368,coconut,Fats and Oils,Fats and Oils,0
+369,lamb,"Lamb, Veal, and Game Products","Lamb, Veal, and Game Products",0
+370,ground spices,Sausages and Luncheon Meats,Poultry Products,1
+371,Kormasalmon fillet,Legumes and Legume Products,Poultry Products,1
+372,king prawns,Vegetables and Vegetable Products,Fast Foods,1
+373,potato,Baked Products,Vegetables and Vegetable Products,1
+374,yoghurt,0,0,0
+375,almond sauce,Beverages,Nut and Seed Products,1
+376,Coconut Lassi,Fats and Oils,Fats and Oils,0
+377,Kingfisher,0,0,0
+378,radiccio,0,0,0
+379,fresh avocado,Fats and Oils,Fruits and Fruit Juices,1
+380,honey mustard,Spices and Herbs,Fats and Oils,1
+381,spreewald gherkins,0,0,0
+382,onion ring,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+383,grilled mushrooms,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+384,red cabbage,Vegetables and Vegetable Products,Fruits and Fruit Juices,1
+385,American mustard,Dairy and Egg Products,Spices and Herbs,1
+386,cranberry compote,Legumes and Legume Products,Fruits and Fruit Juices,1
+387,fresh cucumber,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+388,dried tomatoes,Dairy and Egg Products,Dairy and Egg Products,0
+389,fresh tomatoes,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+390,double meat,Restaurant Foods,Poultry Products,1
+391,chilli mayonnaise,Fats and Oils,Fats and Oils,0
+392,sun-dried tomatoes,Dairy and Egg Products,Dairy and Egg Products,0
+393,feta cheese,Dairy and Egg Products,Dairy and Egg Products,0
+394,lentil,Legumes and Legume Products,Vegetables and Vegetable Products,1
+395,Spreewald cucumber,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+396,a side,Fast Foods,Beef Products,1
+397,market-fresh lettuce,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+398,balsamic mustard,Spices and Herbs,Spices and Herbs,0
+399,US beef,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+400,roasted onions,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+401,Cheddar Cheese,Dairy and Egg Products,Dairy and Egg Products,0
+402,braised onions,Poultry Products,Vegetables and Vegetable Products,1
+403,BBQ vegetables,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+404,provolone cheese,Dairy and Egg Products,Dairy and Egg Products,0
+405,Cheesemacaroni,0,0,0
+406,green asparagus,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+407,roasted almonds,Nut and Seed Products,Beef Products,1
+408,Baked Potato,Baked Products,Baked Products,0
+409,Potato,Baked Products,Vegetables and Vegetable Products,1
+410,ground beef,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+411,Chicken Wings,Poultry Products,Poultry Products,0
+412,Gerolsteiner Sparkling,Beverages,Beverages,0
+413,fruity,Breakfast Cereals,Breakfast Cereals,0
+414,Jalapenos,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+415,Zucchini-Patty mit,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+416,gegrillter Zucchini,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+417,Olivenöl-Dressing mit,Fats and Oils,Fats and Oils,0
+418,Croutons,Baked Products,Baked Products,0
+419,Dressing mit,Fats and Oils,Fats and Oils,0
+420,feuriger,0,0,0
+421,scharf,0,0,0
+422,chickpeas,Legumes and Legume Products,Legumes and Legume Products,0
+423,hot peppers,Sausages and Luncheon Meats,Vegetables and Vegetable Products,1
+424,amb sauce,"Soups, Sauces, and Gravies","Soups, Sauces, and Gravies",0
+425,Pita,Baked Products,Baked Products,0
+426,aubergine slices,Pork Products,Sausages and Luncheon Meats,1
+427,potato slices,Pork Products,Sausages and Luncheon Meats,1
+428,diced tomatoes,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+429,Oyster Mushroom,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+430,pom pom,0,0,0
+431,hack,0,0,0
+432,shredded meat,Restaurant Foods,Poultry Products,1
+433,Sweet potato,Restaurant Foods,Sweets,1
+434,rose water,Finfish and Shellfish Products,Sausages and Luncheon Meats,1
+435,coconut flakes,Fats and Oils,Nut and Seed Products,1
+436,Mousse,Sweets,Baked Products,1
+437,Pomegranate,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+438,halal,0,0,0
+439,lemon juice,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+440,grilled aubergines,Beef Products,Vegetables and Vegetable Products,1
+441,peppermint,Spices and Herbs,Sweets,1
+442,"gluten-free
+sheep cheese",Dairy and Egg Products,Dairy and Egg Products,0
+443,sheep cheese,Dairy and Egg Products,Dairy and Egg Products,0
+444,bean meal,Cereal Grains and Pasta,Legumes and Legume Products,1
+445,chickpea meal,Cereal Grains and Pasta,Legumes and Legume Products,1
+446,"halal
+halloumi cheese",Dairy and Egg Products,Dairy and Egg Products,0
+447,flatbread,Baked Products,0,1
+448,Dumplings,American Indian/Alaska Native Foods,"Meals, Entrees, and Side Dishes",1
+449,sweet pepper,Restaurant Foods,Sweets,1
+450,yogurt,Dairy and Egg Products,Dairy and Egg Products,0
+451,bread pieces,Baked Products,Baked Products,0
+452,pepperoni,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+453,juice,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+454,chicken breast,Poultry Products,Poultry Products,0
+455,"dairy-free
+pikeperch fillet",Dairy and Egg Products,Sausages and Luncheon Meats,1
+456,roasted vermicelli,Beef Products,Nut and Seed Products,1
+457,apple filling,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+458,chocoalte glaze,Nut and Seed Products,Baked Products,1
+459,cheesecake filling,Baked Products,Baked Products,0
+460,chocolate glaze,Baked Products,Nut and Seed Products,1
+461,Oreo,Fast Foods,Baked Products,1
+462,chocolate dough,Baked Products,Baked Products,0
+463,coconut shavings,Fats and Oils,Fats and Oils,0
+464,blue icing,Dairy and Egg Products,American Indian/Alaska Native Foods,1
+465,colourful sprinkles,0,0,0
+466,lemon icing,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+467,cake crumbs,Baked Products,Baked Products,0
+468,chocolate filling,Baked Products,Baked Products,0
+469,chocolate icing,Sweets,Baked Products,1
+470,strawberry filling,Fruits and Fruit Juices,Dairy and Egg Products,1
+471,white icing,Dairy and Egg Products,Vegetables and Vegetable Products,1
+472,Gingerbread DonutDonut,Baked Products,Baked Products,0
+473,green icing,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+474,strawberry pearls,Fruits and Fruit Juices,Dairy and Egg Products,1
+475,strawberry,Fruits and Fruit Juices,Dairy and Egg Products,1
+476,a croissant,Baked Products,Baked Products,0
+477,a donut,Baked Products,Baked Products,0
+478,white chocolate,Dairy and Egg Products,Vegetables and Vegetable Products,1
+479,caramel,Sweets,Sweets,0
+480,chocolate drizzle,Beverages,Sweets,1
+481,chocolate bars,Snacks,Sweets,1
+482,confetti sprinkles,0,0,0
+483,Sprinkles,0,0,0
+484,strawberry glaze,Fruits and Fruit Juices,Dairy and Egg Products,1
+485,coloured sprinkles,0,0,0
+486,cinnamon crunch,Breakfast Cereals,Sweets,1
+487,Cookies,Baked Products,Baby Foods,1
+488,Cream Muffin,Baked Products,Baked Products,0
+489,Hot Chocolate,Sausages and Luncheon Meats,Dairy and Egg Products,1
+490,Ground Espresso,Sausages and Luncheon Meats,Poultry Products,1
+491,that,0,0,0
+492,"
+Ground",Sausages and Luncheon Meats,Poultry Products,1
+493,mixed lettuce,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+494,baby spinach,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+495,Avocado Addictionwith,Fats and Oils,Fruits and Fruit Juices,1
+496,labneh,0,0,0
+497,beetroot hummus,Legumes and Legume Products,Legumes and Legume Products,0
+498,sweet potatoes,Restaurant Foods,Sweets,1
+499,fried mushrooms,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+500,cucumber mix,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+501,almond milk,Beverages,Dairy and Egg Products,1
+502,crunchy granola,Snacks,Snacks,0
+503,crunchy granoala,Restaurant Foods,Cereal Grains and Pasta,1
+504,chickpea masala,Legumes and Legume Products,"Soups, Sauces, and Gravies",1
+505,mango ginger,Fruits and Fruit Juices,Vegetables and Vegetable Products,1
+506,tamarind chutney,Sweets,Fruits and Fruit Juices,1
+507,paneer cheese,Dairy and Egg Products,Dairy and Egg Products,0
+508,yogurt-mint,Dairy and Egg Products,Dairy and Egg Products,0
+509,yoghurt mint,Sweets,Sweets,0
+510,red chili,Vegetables and Vegetable Products,Fruits and Fruit Juices,1
+511,vegetable balls,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+512,masala potatoes,"Soups, Sauces, and Gravies",Baked Products,1
+513,lentil crackers,Legumes and Legume Products,Vegetables and Vegetable Products,1
+514,aubergine masala,"Soups, Sauces, and Gravies",0,1
+515,cucumber-mint yogurt,Vegetables and Vegetable Products,Dairy and Egg Products,1
+516,mint yogurt,Dairy and Egg Products,Dairy and Egg Products,0
+517,red chilli,Vegetables and Vegetable Products,Fruits and Fruit Juices,1
+518,Butter Naanvegetarian,Dairy and Egg Products,Dairy and Egg Products,0
+519,cauliflower,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+520,salad,Finfish and Shellfish Products,Sausages and Luncheon Meats,1
+521,fried vegetables,Restaurant Foods,Sausages and Luncheon Meats,1
+522,doner meat,Restaurant Foods,Poultry Products,1
+523,more meat,Restaurant Foods,Poultry Products,1
+524,flatbread pieces,Baked Products,Sweets,1
+525,mozzarella cheese,Dairy and Egg Products,Dairy and Egg Products,0
+526,turkey ham,Pork Products,Sausages and Luncheon Meats,1
+527,Pide,0,0,0
+528,Soyajoghurt,0,0,0
+529,Chilli,0,0,0
+530,Laugeneckemit Camembert,Dairy and Egg Products,0,1
+531,Nougat Croissant,Baked Products,Baked Products,0
+532,Marzipan Croissant,Baked Products,Baked Products,0
+533,Cookie Hell,Baked Products,Baby Foods,1
+534,Eclair,Baked Products,Baked Products,0
+535,Wiener Mischung,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+536,Wahl,0,0,0
+537,Ananas,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+538,honey-mustard chicken,Spices and Herbs,Poultry Products,1
+539,products,Beef Products,Beef Products,0
+540,Chia Yogurt,Dairy and Egg Products,Dairy and Egg Products,0
+541,Bagel,Baked Products,Baked Products,0
+542,Turkey,Sausages and Luncheon Meats,Poultry Products,1
+543,turkey,Sausages and Luncheon Meats,Poultry Products,1
+544,avocado cream,Fats and Oils,Fruits and Fruit Juices,1
+545,smoked salmon,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+546,Blueberry Cheesecake,Baked Products,Fruits and Fruit Juices,1
+547,Banana Breadvegan,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+548,legumes,Legumes and Legume Products,Legumes and Legume Products,0
+549,cabbage,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+550,low-fat cheese,Dairy and Egg Products,Legumes and Legume Products,1
+551,low-fat salami,Dairy and Egg Products,Legumes and Legume Products,1
+552,tomatos rocket,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+553,Chicken Wrapwith,Poultry Products,Poultry Products,0
+554,tomatos,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+555,mango pieces,Fruits and Fruit Juices,Sweets,1
+556,herb butter,Dairy and Egg Products,Dairy and Egg Products,0
+557,Avocado Dip,Fats and Oils,Fruits and Fruit Juices,1
+558,American Cheese,Dairy and Egg Products,Dairy and Egg Products,0
+559,smoked bacon,Pork Products,Legumes and Legume Products,1
+560,American cheese,Dairy and Egg Products,Dairy and Egg Products,0
+561,crispy bacon,Pork Products,Fast Foods,1
+562,Hot DogOur,Sausages and Luncheon Meats,Fast Foods,1
+563,All-beef Hotdog,Cereal Grains and Pasta,Cereal Grains and Pasta,0
+564,Cheese DogOur,Dairy and Egg Products,Dairy and Egg Products,0
+565,beef Hotdog,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+566,Veggie SandwichCreate,Legumes and Legume Products,0,1
+567,fish,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+568,Veggie Sandwich,Legumes and Legume Products,Dairy and Egg Products,1
+569,your Veggie,Legumes and Legume Products,0,1
+570,golden brown,Cereal Grains and Pasta,Legumes and Legume Products,1
+571,fresh-cut tomato,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+572,crunchy lettuce,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+573,colouring,0,0,0
+574,sweetener,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+575,Oliven,0,0,0
+576,Geflügelmit Mozzarella,Dairy and Egg Products,Restaurant Foods,1
+577,Cheddar Soße,Dairy and Egg Products,Dairy and Egg Products,0
+578,spicy jalapenos,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+579,"gluten-free
+House fries",Restaurant Foods,Sausages and Luncheon Meats,1
+580,pulled pork,Restaurant Foods,Pork Products,1
+581,pickled onions,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+582,buttermilk,Dairy and Egg Products,Dairy and Egg Products,0
+583,avocados,Fats and Oils,Fruits and Fruit Juices,1
+584,cucumber slices,Vegetables and Vegetable Products,Pork Products,1
+585,casing,0,0,0
+586,lemon aioli,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+587,vegan,0,0,0
+588,"gluten-free
+light aioli",Fats and Oils,Legumes and Legume Products,1
+589,pleasant notes,0,0,0
+590,red pepper,Vegetables and Vegetable Products,Fruits and Fruit Juices,1
+591,Cheese Sauce45ml,Dairy and Egg Products,Dairy and Egg Products,0
+592,taste,0,0,0
+593,characteristic beetroot,0,0,0
+594,cinnamon sugar,Sweets,Baked Products,1
+595,chocolate hazelnut,Sweets,Fats and Oils,1
+596,Organic rhubarb,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+597,Cranberry,Legumes and Legume Products,Fruits and Fruit Juices,1
+598,tart,Fruits and Fruit Juices,Baked Products,1
+599,cranberry,Legumes and Legume Products,Fruits and Fruit Juices,1
+600,black tea,Legumes and Legume Products,Beverages,1
+601,hips,American Indian/Alaska Native Foods,0,1
+602,refreshing lemon,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+603,love,0,0,0
+604,the heart,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+605,Hamburg,Fast Foods,Fast Foods,0
+606,hops,0,0,0
+607,chocolate sauce,"Soups, Sauces, and Gravies","Soups, Sauces, and Gravies",0
+608,chocolate curls,Beverages,Sweets,1
+609,brittle chips,Sweets,Snacks,1
+610,Chocolate Cupvanilla,Beverages,Sweets,1
+611,strawberry sauce,Fruits and Fruit Juices,Dairy and Egg Products,1
+612,Spaghetti,"Soups, Sauces, and Gravies",Restaurant Foods,1
+613,strawberries,Fruits and Fruit Juices,Dairy and Egg Products,1
+614,melon,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+615,kiwi,Beverages,Baby Foods,1
+616,kiwi sauce,"Soups, Sauces, and Gravies","Soups, Sauces, and Gravies",0
+617,banana,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+618,pralines,Sweets,0,1
+619,brittle sprinkles,Sweets,0,1
+620,Strawberry Cupstrawberry,Fruits and Fruit Juices,Dairy and Egg Products,1
+621,fresh strawberries,Fruits and Fruit Juices,Dairy and Egg Products,1
+622,Profiterole,0,0,0
+623,cherries,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+624,cherry sauce,"Soups, Sauces, and Gravies","Soups, Sauces, and Gravies",0
+625,beef pieces,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+626,boiled limes,Vegetables and Vegetable Products,Poultry Products,1
+627,roasted eggplants,Beef Products,Nut and Seed Products,1
+628,yellow lentils,Spices and Herbs,Vegetables and Vegetable Products,1
+629,chicken leg,Poultry Products,Poultry Products,0
+630,grilled tomato,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+631,minced lamb,Sausages and Luncheon Meats,"Lamb, Veal, and Game Products",1
+632,pomegranate sauce,"Soups, Sauces, and Gravies","Soups, Sauces, and Gravies",0
+633,Peperoni,0,0,0
+634,Büffelmozzarella,0,0,0
+635,Auberginen,0,0,0
+636,scharfer Peperoni,0,0,0
+637,Spaghetti Freudevegan,"Soups, Sauces, and Gravies",Restaurant Foods,1
+638,gegrillter Aubergine,0,0,0
+639,BunAlaska pollock,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+640,mixed vegetables,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+641,tomato ketchup,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+642,Tomato Ketchup,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+643,GO!-Muffin Chocolate,error,error,0
+644,GO!-Muffin Blueberry,error,error,0
+645,tofu croutons,Legumes and Legume Products,Legumes and Legume Products,0
+646,potato chips,Snacks,Snacks,0
+647,radish strips,Beef Products,Vegetables and Vegetable Products,1
+648,Veggie Burgervegatarian,Legumes and Legume Products,0,1
+649,cauliflower patty,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+650,chicken thigh,Poultry Products,Poultry Products,0
+651,the bone,Beef Products,Legumes and Legume Products,1
+652,Chicken Tenders3,Poultry Products,Poultry Products,0
+653,Veggie Insadongvegetarian,Legumes and Legume Products,0,1
+654,curry,Spices and Herbs,"Soups, Sauces, and Gravies",1
+655,pickled vegetables,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+656,Waffle,Baked Products,Baked Products,0
+657,Orange Limonade,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+658,Grapefruit Limonade,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+659,Pidewith cheese,Dairy and Egg Products,Dairy and Egg Products,0
+660,kebab meat,Restaurant Foods,Poultry Products,1
+661,Fried Vegetables,Restaurant Foods,Sausages and Luncheon Meats,1
+662,Bionade Lychee,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+663,Edamame,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+664,Japanese pepper,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+665,soybeans,Fats and Oils,Fats and Oils,0
+666,red fruit,Vegetables and Vegetable Products,Fruits and Fruit Juices,1
+667,salami,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+668,pepperoni sausage,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+669,Chili-Hamburger,Fast Foods,Fast Foods,0
+670,Sheep Cheese,Dairy and Egg Products,Dairy and Egg Products,0
+671,Yogurt Sauce,Dairy and Egg Products,Dairy and Egg Products,0
+672,Thuringian Bratwurst,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+673,Curry Sausage,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+674,Beef Sausage,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+675,Chicken Nuggets,Poultry Products,Poultry Products,0
+676,Cream,Dairy and Egg Products,Dairy and Egg Products,0
+677,Truffle Chipswith,Sausages and Luncheon Meats,Sweets,1
+678,beetroot,0,0,0
+679,pita corners,Baked Products,Baked Products,0
+680,stone-baked bread,Baked Products,Baked Products,0
+681,roasted pumpkin,Beef Products,Nut and Seed Products,1
+682,garden cress,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+683,radishes,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+684,finger carrots,Vegetables and Vegetable Products,Restaurant Foods,1
+685,mint,Sweets,Sweets,0
+686,Avocado Benedictwith,Fats and Oils,Fruits and Fruit Juices,1
+687,turkey breast,Sausages and Luncheon Meats,Poultry Products,1
+688,gruyere cheese,Dairy and Egg Products,Dairy and Egg Products,0
+689,pickled salmon,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+690,Frankfurt,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+691,brioche buns,Baked Products,Baked Products,0
+692,an iceberg,Vegetables and Vegetable Products,0,1
+693,brioche bun,Baked Products,Baked Products,0
+694,no soy,Legumes and Legume Products,Legumes and Legume Products,0
+695,Beetroot Latte,0,0,0
+696,Cinnamon,Baked Products,Baked Products,0
+697,lime juice,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+698,ginger beer,Beverages,Sausages and Luncheon Meats,1
+699,elderberry syrup,Fruits and Fruit Juices,Sweets,1
+700,mango syrup,Sweets,Sweets,0
+701,triple sec,0,0,0
+702,cranberry juice,Fruits and Fruit Juices,Legumes and Legume Products,1
+703,pomegranate seeds,Nut and Seed Products,Nut and Seed Products,0
+704,Cauliflower Powervegan,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+705,pita,Baked Products,Baked Products,0
+706,​​Parmesan,Dairy and Egg Products,Dairy and Egg Products,0
+707,regional cheese,Dairy and Egg Products,Dairy and Egg Products,0
+708,grilled peppers,Beef Products,Vegetables and Vegetable Products,1
+709,fresh lettuce,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+710,fried eggplant,Restaurant Foods,Sausages and Luncheon Meats,1
+711,Taro,Vegetables and Vegetable Products,Snacks,1
+712,frittiert,0,0,0
+713,Wintermelone,0,0,0
+714,Pakoravarious vegetables,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+715,chickpea batter,Legumes and Legume Products,Restaurant Foods,1
+716,Curryfish fillet,Legumes and Legume Products,Poultry Products,1
+717,Aloo Gobicauliflower,0,0,0
+718,Vegetable,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+719,lamb pieces,"Lamb, Veal, and Game Products","Lamb, Veal, and Game Products",0
+720,Butter Naanflatbread,Dairy and Egg Products,Dairy and Egg Products,0
+721,Garlic Naanflatbread,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+722,Keema Naanflatbread,0,0,0
+723,Raitayogurt,0,0,0
+724,flour,Cereal Grains and Pasta,Cereal Grains and Pasta,0
+725,sugar,Sweets,Sweets,0
+726,salt,Dairy and Egg Products,Spices and Herbs,1
+727,chicken strips,Poultry Products,Poultry Products,0
+728,aubergine,0,0,0
+729,halloumi cheese,Dairy and Egg Products,Dairy and Egg Products,0
+730,avocado slices,Pork Products,Sausages and Luncheon Meats,1
+731,red peppers,Vegetables and Vegetable Products,Fruits and Fruit Juices,1
+732,portobello mushrooms,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+733,Cheese Burgervegetarian,Dairy and Egg Products,Dairy and Egg Products,0
+734,"spicy
+special noodles",Sweets,Baked Products,1
+735,bone,Beef Products,Legumes and Legume Products,1
+736,chili oil,Fats and Oils,Fats and Oils,0
+737,inner rolls,Baked Products,Baked Products,0
+738,whole chicken,Dairy and Egg Products,Dairy and Egg Products,0
+739,wood ear,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+740,crispy cracker,Baked Products,Baked Products,0
+741,sausage,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+742,chick peas,"Soups, Sauces, and Gravies",Fast Foods,1
+743,sweet mustard,Spices and Herbs,Restaurant Foods,1
+744,Date,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+745,Breadwith zucchini,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+746,Triple Cream,Dairy and Egg Products,Dairy and Egg Products,0
+747,oat flakes,Breakfast Cereals,Vegetables and Vegetable Products,1
+748,peanut butter,Legumes and Legume Products,Fats and Oils,1
+749,Pineapple,Sweets,Baby Foods,1
+750,roasted garlic,Vegetables and Vegetable Products,Beef Products,1
+751,mango salsa,"Soups, Sauces, and Gravies",Fruits and Fruit Juices,1
+752,furikake,0,0,0
+753,sashimi tuna,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+754,sashimi salmon,Fats and Oils,Finfish and Shellfish Products,1
+755,chilli,0,0,0
+756,veggie crisps,Legumes and Legume Products,Sweets,1
+757,mango mayonnaise,Fats and Oils,Fats and Oils,0
+758,Kikok chicken,Poultry Products,Poultry Products,0
+759,wasabi peas,Snacks,"Soups, Sauces, and Gravies",1
+760,sprouts,Cereal Grains and Pasta,Baked Products,1
+761,style beef,Sausages and Luncheon Meats,Legumes and Legume Products,1
+762,jerk chicken,Poultry Products,Poultry Products,0
+763,makawao veggies,Legumes and Legume Products,0,1
+764,rice noodles,Cereal Grains and Pasta,Cereal Grains and Pasta,0
+765,summer roll,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+766,roasted beef,Beef Products,Beef Products,0
+767,crispy pork,Restaurant Foods,Pork Products,1
+768,​​fish cakes,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+769,udon noodles,Cereal Grains and Pasta,Cereal Grains and Pasta,0
+770,onion,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+771,chili pepper,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+772,beef fillet,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+773,lemon grass,Vegetables and Vegetable Products,Beef Products,1
+774,oyster sauce,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+775,breaded chicken,Baked Products,Baked Products,0
+776,breast fillet,Poultry Products,Legumes and Legume Products,1
+777,fresh pineapple,Sweets,Spices and Herbs,1
+778,wok vegetables,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+779,mango sauce,"Soups, Sauces, and Gravies","Soups, Sauces, and Gravies",0
+780,duck,Poultry Products,"Soups, Sauces, and Gravies",1
+781,grilled meat,Restaurant Foods,Poultry Products,1
+782,homemade veggie,"Soups, Sauces, and Gravies","Soups, Sauces, and Gravies",0
+783,soy sprouts,Legumes and Legume Products,Legumes and Legume Products,0
+784,spring roll,Cereal Grains and Pasta,Baked Products,1
+785,pork belly,Restaurant Foods,Pork Products,1
+786,large prawns,Dairy and Egg Products,Dairy and Egg Products,0
+787,sweet mango,Restaurant Foods,Sweets,1
+788,sticky rice,Cereal Grains and Pasta,Cereal Grains and Pasta,0
+789,Mediterranean vegetables,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+790,Tagliatelle,0,0,0
+791,homemade raspberry,"Soups, Sauces, and Gravies","Soups, Sauces, and Gravies",0
+792,eggplant mousse,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+793,chickpea mousse,Legumes and Legume Products,Sweets,1
+794,baked potatoes,Baked Products,Baked Products,0
+795,roasted seeds,Nut and Seed Products,Beef Products,1
+796,fresh kiwi,Beverages,Spices and Herbs,1
+797,cornflakes,0,0,0
+798,Parmesan cheese,Dairy and Egg Products,Dairy and Egg Products,0
+799,minced beef,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+800,Nachoswith cheese,Dairy and Egg Products,Dairy and Egg Products,0
+801,chicken chips,Poultry Products,Poultry Products,0
+802,mozzarella sticks,Dairy and Egg Products,Dairy and Egg Products,0
+803,potato wedges,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+804,aubergine puree,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+805,avocado sauce,"Soups, Sauces, and Gravies","Soups, Sauces, and Gravies",0
+806,tomato pieces,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+807,White,Dairy and Egg Products,Vegetables and Vegetable Products,1
+808,coconut syrup,Fats and Oils,Sweets,1
+809,"Strawberry Night10,5%VOL",Fruits and Fruit Juices,Dairy and Egg Products,1
+810,chard,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+811,chili marinade,Restaurant Foods,Legumes and Legume Products,1
+812,tamarind butter,Dairy and Egg Products,Dairy and Egg Products,0
+813,Chicken Karaagedeep,Poultry Products,Poultry Products,0
+814,wild broccoli,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+815,roast beef,Beef Products,Beef Products,0
+816,roasted beetroot,Beef Products,Nut and Seed Products,1
+817,grilled cauliflower,Beef Products,Vegetables and Vegetable Products,1
+818,sesame cucumber,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+819,shiso tomatoes,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+820,ginger scallion,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+821,Baguette Hähnchen,0,0,0
+822,Baguette Köfte,0,0,0
+823,Baguette Merguez,0,0,0
+824,Baguette Backfisch,0,0,0
+825,Baguette Thunfischkalt,0,0,0
+826,Forellen Kaviar,0,0,0
+827,gehobeltem Parmesan,Dairy and Egg Products,Dairy and Egg Products,0
+828,Calamari,0,0,0
+829,Schinken,0,0,0
+830,Artischocken,0,0,0
+831,Prosciutto Parma,0,0,0
+832,Scheibchen,0,0,0
+833,überbacken mit,0,0,0
+834,chicken gyoza,Poultry Products,Poultry Products,0
+835,spider roll,Baked Products,Baked Products,0
+836,tuna maki,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+837,salmon maki,Fats and Oils,Finfish and Shellfish Products,1
+838,cucumber maki,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+839,avocado maki,Fats and Oils,Fruits and Fruit Juices,1
+840,2 tuna,Dairy and Egg Products,Finfish and Shellfish Products,1
+841,avoado maki,0,0,0
+842,salmon nigiri,Fats and Oils,Finfish and Shellfish Products,1
+843,tuna nigiri,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+844,grilled salmon,Beef Products,Fats and Oils,1
+845,scampi,0,0,0
+846,Avocado Saladwith,Fats and Oils,Fruits and Fruit Juices,1
+847,Chicken Gyoza8,Poultry Products,Poultry Products,0
+848,japanese dumplings,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+849,Chicken Teriyakicooked,Poultry Products,Poultry Products,0
+850,cress,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+851,chili mayonnaise,Fats and Oils,Fats and Oils,0
+852,chives,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+853,tuna tartar,Finfish and Shellfish Products,Baked Products,1
+854,Panko Salmon,Fats and Oils,Finfish and Shellfish Products,1
+855,grilled eel,Beef Products,Finfish and Shellfish Products,1
+856,shrimp tempura,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+857,Softshellcrab,0,0,0
+858,softshell crab,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+859,Salmon Makihosomaki,Fats and Oils,Finfish and Shellfish Products,1
+860,Raisin Croissant,Baked Products,Baked Products,0
+861,Baguette,0,0,0
+862,Gateau,0,0,0
+863,Whole Gateau,Dairy and Egg Products,Dairy and Egg Products,0
+864,white wine,Dairy and Egg Products,Vegetables and Vegetable Products,1
+865,fresh spinach,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+866,ricotta,Dairy and Egg Products,Dairy and Egg Products,0
+867,sheep's cheese,Dairy and Egg Products,Dairy and Egg Products,0
+868,courgette,0,0,0
+869,fresh parmesan,Dairy and Egg Products,Spices and Herbs,1
+870,arugula,Vegetables and Vegetable Products,0,1
+871,Lasagne Capresefilled,Restaurant Foods,0,1
+872,Lasagne,Restaurant Foods,0,1
+873,ricotta cheese,Dairy and Egg Products,Dairy and Egg Products,0
+874,forest honey,Sweets,Fast Foods,1
+875,Lasagne Salmonefilled,Restaurant Foods,0,1
+876,fresh mushrooms,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+877,cherry,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+878,Flatbreadwith,0,0,0
+879,Flatbread,Baked Products,0,1
+880,Soft Cheese,Baked Products,Dairy and Egg Products,1
+881,Vegetables,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+882,Tomato,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+883,Tomatoes,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+884,rotisserie meat,Restaurant Foods,Poultry Products,1
+885,Vegetable Kebabwith,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+886,various Vegetables,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+887,Flatbread Menu,Restaurant Foods,Restaurant Foods,0
+888,Yogurt,Dairy and Egg Products,Dairy and Egg Products,0
+889,Muesli,Breakfast Cereals,Breakfast Cereals,0
+890,Brioche,0,0,0
+891,boiled ham,Pork Products,Vegetables and Vegetable Products,1
+892,mountain cheese,Dairy and Egg Products,Dairy and Egg Products,0
+893,Avocado Clubbrioche,Fats and Oils,Fruits and Fruit Juices,1
+894,Applewith almond,Beverages,Nut and Seed Products,1
+895,Berrieswith coconut,Fats and Oils,Fats and Oils,0
+896,Bananawith chocolate,Beverages,Sweets,1
+897,Hot Flakes,Sausages and Luncheon Meats,Vegetables and Vegetable Products,1
+898,shortbread,Baked Products,Baked Products,0
+899,Greek yogurt,Dairy and Egg Products,Dairy and Egg Products,0
+900,Juice,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+901,Carrot,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+902,Apple,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+903,Fennel,Vegetables and Vegetable Products,Spices and Herbs,1
+904,Celery,Vegetables and Vegetable Products,Spices and Herbs,1
+905,tiger prawns,Sweets,0,1
+906,crab meat,Restaurant Foods,Poultry Products,1
+907,pasta,"Soups, Sauces, and Gravies",Cereal Grains and Pasta,1
+908,blueberries,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+909,homemade lime,"Soups, Sauces, and Gravies","Soups, Sauces, and Gravies",0
+910,granola,Breakfast Cereals,Snacks,1
+911,pitaya,0,0,0
+912,Salmon Sandwichsalmon,Fats and Oils,Finfish and Shellfish Products,1
+913,Popi's Bananabread,0,0,0
+914,Frappe,0,0,0
+915,Orange Juice,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+916,wine,Spices and Herbs,Beverages,1
+917,Chateau d'Orsan,0,0,0
+918,carrot sticks,Dairy and Egg Products,Dairy and Egg Products,0
+919,daikon cress,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+920,Steamed dumplings,American Indian/Alaska Native Foods,American Indian/Alaska Native Foods,0
+921,a chicken,Poultry Products,Poultry Products,0
+922,vegetable,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+923,soybean kernels,Fats and Oils,Nut and Seed Products,1
+924,peanut,Fats and Oils,Legumes and Legume Products,1
+925,snow peas,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+926,green beans,Vegetables and Vegetable Products,Fruits and Fruit Juices,1
+927,seasonal vegetables,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+928,soybean sprouts,Fats and Oils,Vegetables and Vegetable Products,1
+929,pomegranate kernels,Nut and Seed Products,Fruits and Fruit Juices,1
+930,glass noodles,Cereal Grains and Pasta,Cereal Grains and Pasta,0
+931,soy beans,Legumes and Legume Products,Legumes and Legume Products,0
+932,crispy chicken,Poultry Products,Poultry Products,0
+933,mango chili,Restaurant Foods,Fruits and Fruit Juices,1
+934,tofu dumplings,Legumes and Legume Products,Legumes and Legume Products,0
+935,soybean seeds,Fats and Oils,Nut and Seed Products,1
+936,mixed green,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+937,delicious peanut,Fruits and Fruit Juices,Fats and Oils,1
+938,coconut curry,Fats and Oils,"Soups, Sauces, and Gravies",1
+939,Beetroot Saladvegetarian,0,0,0
+940,pomegranate pearls,Cereal Grains and Pasta,Cereal Grains and Pasta,0
+941,peperoni,0,0,0
+942,romaine lettuce,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+943,chicken skewer,Poultry Products,Poultry Products,0
+944,veal,Sausages and Luncheon Meats,"Lamb, Veal, and Game Products",1
+945,green lettuce,Vegetables and Vegetable Products,Fruits and Fruit Juices,1
+946,pita bread,Baked Products,Baked Products,0
+947,gyros,0,0,0
+948,pearls,Cereal Grains and Pasta,Cereal Grains and Pasta,0
+949,roasted red,Vegetables and Vegetable Products,Fruits and Fruit Juices,1
+950,Mustard Mayo,Legumes and Legume Products,Spices and Herbs,1
+951,Chicken Skewer,Poultry Products,Poultry Products,0
+952,Grilled Peperoni,Beef Products,Vegetables and Vegetable Products,1
+953,Grilled Vegetables,Beef Products,Vegetables and Vegetable Products,1
+954,naan bread,Baked Products,Baked Products,0
+955,saddle,"Lamb, Veal, and Game Products","Lamb, Veal, and Game Products",0
+956,Lamb,"Lamb, Veal, and Game Products","Lamb, Veal, and Game Products",0
+957,Lentil Curry,Legumes and Legume Products,Vegetables and Vegetable Products,1
+958,plum sauce,"Soups, Sauces, and Gravies","Soups, Sauces, and Gravies",0
+959,Cheese Naan,Dairy and Egg Products,Dairy and Egg Products,0
+960,Chapatti,0,0,0
+961,cocoa powder,Beverages,Sweets,1
+962,minced shrimps,Sausages and Luncheon Meats,Baked Products,1
+963,wheat noodles,Cereal Grains and Pasta,Baked Products,1
+964,spicy beef,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+965,chopped pork,Restaurant Foods,Pork Products,1
+966,minced pork,Restaurant Foods,Pork Products,1
+967,fish tofu,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+968,mussels,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+969,Alaska pollock,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+970,batter,Restaurant Foods,Poultry Products,1
+971,fishcake,0,0,0
+972,garnish,0,0,0
+973,Salmon Fillet,Legumes and Legume Products,Fats and Oils,1
+974,vegetable rice,Cereal Grains and Pasta,Cereal Grains and Pasta,0
+975,Pollock Fillet,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+976,MushroomsPollock fillet,Legumes and Legume Products,Poultry Products,1
+977,aromatic cheese,Dairy and Egg Products,Dairy and Egg Products,0
+978,choice,Beef Products,Beef Products,0
+979,side salad,Fast Foods,Finfish and Shellfish Products,1
+980,plaice,0,0,0
+981,Fried fish,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+982,Baguettecrumbed fillet,Legumes and Legume Products,Poultry Products,1
+983,fried fish,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+984,tartar,Baked Products,"Soups, Sauces, and Gravies",1
+985,crispy lettuce,Vegetables and Vegetable Products,Fast Foods,1
+986,Vikingcrumbed fillet,Legumes and Legume Products,Poultry Products,1
+987,salad mix,Finfish and Shellfish Products,Sausages and Luncheon Meats,1
+988,roasted onion,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+989,sliced gherkins,Pork Products,Sausages and Luncheon Meats,1
+990,baguetteBismarck herrings,Fats and Oils,Finfish and Shellfish Products,1
+991,Pollock,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+992,Shrimp bucketbucket,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+993,delicious pieces,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+994,Vish,0,0,0
+995,crunchy fries,Restaurant Foods,Sausages and Luncheon Meats,1
+996,size,Legumes and Legume Products,Legumes and Legume Products,0
+997,peel,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+998,other snacks,Sweets,Beverages,1
+999,peeled potatoes,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1000,vegetable oil,Fats and Oils,Fats and Oils,0
+1001,vegetableswith carrots,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1002,crispy broccoli,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1003,fresh potatoes,Spices and Herbs,Vegetables and Vegetable Products,1
+1004,yogurt cream,Dairy and Egg Products,Dairy and Egg Products,0
+1005,lettuce mayonnaise,Vegetables and Vegetable Products,Fast Foods,1
+1006,lamb's lettuce,Vegetables and Vegetable Products,"Lamb, Veal, and Game Products",1
+1007,kidney beans,Legumes and Legume Products,Legumes and Legume Products,0
+1008,Menuwith arugula,Vegetables and Vegetable Products,0,1
+1009,pomegranate cream,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+1010,cheese cream,Dairy and Egg Products,Dairy and Egg Products,0
+1011,breaded feta,Baked Products,Baked Products,0
+1012,pastirma,0,0,0
+1013,Veal,Sausages and Luncheon Meats,"Lamb, Veal, and Game Products",1
+1014,Sweet fries,Restaurant Foods,Sausages and Luncheon Meats,1
+1015,Avocado Creamvegan,Fats and Oils,Fruits and Fruit Juices,1
+1016,Cheese Cream,Dairy and Egg Products,Dairy and Egg Products,0
+1017,mango pulp,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+1018,a hoisin,"Soups, Sauces, and Gravies",0,1
+1019,spring rolls,Cereal Grains and Pasta,Baked Products,1
+1020,soy seedlings,Legumes and Legume Products,Legumes and Legume Products,0
+1021,taro,Vegetables and Vegetable Products,Snacks,1
+1022,sesame chips,Sweets,Fats and Oils,1
+1023,roasted peanuts,Fats and Oils,Legumes and Legume Products,1
+1024,shiitake mushrooms,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1025,kohlrabi,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1026,mung beans,Legumes and Legume Products,Legumes and Legume Products,0
+1027,veggie chicken,Poultry Products,Poultry Products,0
+1028,blueberry,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+1029,inside-out roll,Poultry Products,Poultry Products,0
+1030,minced veggie,Sausages and Luncheon Meats,Baked Products,1
+1031,veggie salmon,Fats and Oils,Finfish and Shellfish Products,1
+1032,veggie tuna,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+1033,veggie fish,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+1034,soy fibers,Legumes and Legume Products,Legumes and Legume Products,0
+1035,konjak prawns,0,0,0
+1036,veggie duck,Poultry Products,"Soups, Sauces, and Gravies",1
+1037,oyster mushrooms,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1038,baby corn,Vegetables and Vegetable Products,Fats and Oils,1
+1039,enoki mushrooms,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1040,straw mushrooms,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1041,butter fruit,Dairy and Egg Products,Dairy and Egg Products,0
+1042,Puff pastry,Cereal Grains and Pasta,Baked Products,1
+1043,sundried tomatoes,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1044,tunar tartare,Baked Products,"Soups, Sauces, and Gravies",1
+1045,Italian salami,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+1046,sucuk sausage,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+1047,Tonnowith tuna,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+1048,yellow tomatoes,Spices and Herbs,Vegetables and Vegetable Products,1
+1049,grilled vegetables,Beef Products,Vegetables and Vegetable Products,1
+1050,Gorgonzola,0,0,0
+1051,pears,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+1052,Scamorza cheese,Dairy and Egg Products,Dairy and Egg Products,0
+1053,(turnip stalk,error,error,0
+1054,frisee,0,0,0
+1055,capers,Spices and Herbs,0,1
+1056,anchovies,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+1057,artichokecream,0,0,0
+1058,grilled artichokes,Beef Products,Vegetables and Vegetable Products,1
+1059,lemon zest,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+1060,Scarmoza cheese,Dairy and Egg Products,Dairy and Egg Products,0
+1061,Oreo cookies,Baked Products,Fast Foods,1
+1062,Coconut Milk,Fats and Oils,Dairy and Egg Products,1
+1063,Garlic Bread,Vegetables and Vegetable Products,Baked Products,1
+1064,tuna sauce,Finfish and Shellfish Products,"Soups, Sauces, and Gravies",1
+1065,Patategrilled octopus,American Indian/Alaska Native Foods,Finfish and Shellfish Products,1
+1066,roasted potatoes,Beef Products,Nut and Seed Products,1
+1067,parmesan dressing,Dairy and Egg Products,Fats and Oils,1
+1068,parmesan chips,Dairy and Egg Products,Dairy and Egg Products,0
+1069,beef balls,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+1070,parmesan flakes,Dairy and Egg Products,Vegetables and Vegetable Products,1
+1071,truffle scamorza,Sausages and Luncheon Meats,Sweets,1
+1072,truffle cream,Sausages and Luncheon Meats,Sweets,1
+1073,truffle,Sausages and Luncheon Meats,Sweets,1
+1074,pecorino cheese,Dairy and Egg Products,Dairy and Egg Products,0
+1075,spinach filling,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1076,pink pepper,Legumes and Legume Products,Finfish and Shellfish Products,1
+1077,Limonewith shrimps,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+1078,Grilled Salmon,Beef Products,Fats and Oils,1
+1079,grilled fish,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+1080,rosemary potatoes,Spices and Herbs,Spices and Herbs,0
+1081,greens,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+1082,black truffles,Legumes and Legume Products,Sausages and Luncheon Meats,1
+1083,Truffle Combinationlinguine,Sausages and Luncheon Meats,Sweets,1
+1084,Tortellini,"Meals, Entrees, and Side Dishes",0,1
+1085,black truffle,Legumes and Legume Products,Sausages and Luncheon Meats,1
+1086,Rindercarpacciowith arugula,Vegetables and Vegetable Products,0,1
+1087,Salmonin,0,0,0
+1088,Luinguine,0,0,0
+1089,Gambaswith zucchini,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1090,grated Parmesan,Dairy and Egg Products,Dairy and Egg Products,0
+1091,side,Fast Foods,Beef Products,1
+1092,alcohol,Beverages,Beverages,0
+1093,apricots,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+1094,the palate,0,0,0
+1095,raspberry,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+1096,grilled eggplant,Beef Products,Vegetables and Vegetable Products,1
+1097,fresh peperoni,Spices and Herbs,Vegetables and Vegetable Products,1
+1098,Spaghetti Arrabiataspicy,"Soups, Sauces, and Gravies",Restaurant Foods,1
+1099,fresh peppers,Spices and Herbs,Vegetables and Vegetable Products,1
+1100,Spaghetti Carbonarawith,"Soups, Sauces, and Gravies",Restaurant Foods,1
+1101,Salami,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+1102,Thunfisch,0,0,0
+1103,Tortellini Gorgonzola,"Meals, Entrees, and Side Dishes",0,1
+1104,date tomatoes,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1105,Pizza Prosciutto,Fast Foods,Fast Foods,0
+1106,Pizza Arugula,Vegetables and Vegetable Products,Fast Foods,1
+1107,Parma,0,0,0
+1108,Fontina cheese,Dairy and Egg Products,Dairy and Egg Products,0
+1109,(broccoli raven,error,error,0
+1110,rice rolls,Cereal Grains and Pasta,Cereal Grains and Pasta,0
+1111,wonton,"Soups, Sauces, and Gravies","Meals, Entrees, and Side Dishes",1
+1112,shrimps,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+1113,chopped chicken,Poultry Products,Poultry Products,0
+1114,crispy duck,Poultry Products,"Soups, Sauces, and Gravies",1
+1115,seafood,0,0,0
+1116,homemade fish,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+1117,sour dish,Restaurant Foods,Fast Foods,1
+1118,Thai eggplant,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1119,Thai aubergine,"Soups, Sauces, and Gravies",0,1
+1120,marinated cucumbers,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1121,fried wonton,Restaurant Foods,Sausages and Luncheon Meats,1
+1122,minced chicken,Poultry Products,Poultry Products,0
+1123,shallots,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1124,spur chili,Restaurant Foods,Legumes and Legume Products,1
+1125,green pepper,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+1126,green curry,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+1127,Thai aubergines,"Soups, Sauces, and Gravies",0,1
+1128,Thai broccoli,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1129,a ginger,Vegetables and Vegetable Products,Spices and Herbs,1
+1130,green peppercorns,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+1131,green garlic,Vegetables and Vegetable Products,Fruits and Fruit Juices,1
+1132,Buffalo mozzarella,Dairy and Egg Products,Dairy and Egg Products,0
+1133,Aubergine Parmigianabaked,0,0,0
+1134,truffles,Sausages and Luncheon Meats,Sweets,1
+1135,Pizza bun6,Fast Foods,Fast Foods,0
+1136,crayfish,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+1137,Gnocchi alla,0,0,0
+1138,Pappardelle,0,0,0
+1139,Salmon,Fats and Oils,Finfish and Shellfish Products,1
+1140,parsley potatoes,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1141,Turkey Fillet,Sausages and Luncheon Meats,Poultry Products,1
+1142,Grillwith vegetables,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1143,cocoa,Fats and Oils,Beverages,1
+1144,porcini mushrooms,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1145,Edam cheese,Dairy and Egg Products,Dairy and Egg Products,0
+1146,60 Lasagne,Restaurant Foods,Sweets,1
+1147,crepe,0,0,0
+1148,corn flakes,Fats and Oils,Cereal Grains and Pasta,1
+1149,chocolate cream,Sweets,Sweets,0
+1150,cheese cake,Dairy and Egg Products,Dairy and Egg Products,0
+1151,dark chocolate,Legumes and Legume Products,Sweets,1
+1152,blueberry cream,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+1153,Reese,Sweets,Sweets,0
+1154,hearts,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1155,Brittle,Sweets,0,1
+1156,strawberry jam,Fruits and Fruit Juices,Dairy and Egg Products,1
+1157,dried strawberries,Dairy and Egg Products,Dairy and Egg Products,0
+1158,lotus cookie,Baked Products,Vegetables and Vegetable Products,1
+1159,yogurette,0,0,0
+1160,raspberries,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+1161,ground pistachios,Sausages and Luncheon Meats,Poultry Products,1
+1162,Lotus cookie,Baked Products,Vegetables and Vegetable Products,1
+1163,Cookie D,Dairy and Egg Products,Dairy and Egg Products,0
+1164,Cookie Dough,Baked Products,Baked Products,0
+1165,chocolate chips,Baked Products,Baked Products,0
+1166,spicy tuna,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+1167,grilled tuna,Finfish and Shellfish Products,Beef Products,1
+1168,fried shrimp,Restaurant Foods,Sausages and Luncheon Meats,1
+1169,roll,Baked Products,Baked Products,0
+1170,nigiri salmon,Fats and Oils,Finfish and Shellfish Products,1
+1171,nigiri tuna,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+1172,grated parmesan,Dairy and Egg Products,Dairy and Egg Products,0
+1173,homemade chili,"Soups, Sauces, and Gravies","Soups, Sauces, and Gravies",0
+1174,gratinated cheese,Dairy and Egg Products,Dairy and Egg Products,0
+1175,Chicken Nuggetstender,Poultry Products,Poultry Products,0
+1176,plate,Restaurant Foods,"Lamb, Veal, and Game Products",1
+1177,chicken nuggets,Poultry Products,Poultry Products,0
+1178,Browniewarm brownie,Baked Products,Baked Products,0
+1179,CheesecakeAmerican cheesecake,Baked Products,Baked Products,0
+1180,Hamburger Menü,Fast Foods,Fast Foods,0
+1181,Aubergine,0,0,0
+1182,Swiss cheese,Dairy and Egg Products,Dairy and Egg Products,0
+1183,beef ham,Pork Products,Sausages and Luncheon Meats,1
+1184,sticks,Dairy and Egg Products,Dairy and Egg Products,0
+1185,onion mix,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1186,Hot Sauce,"Soups, Sauces, and Gravies","Soups, Sauces, and Gravies",0
+1187,Peach,Fruits and Fruit Juices,Baked Products,1
+1188,barberry,0,0,0
+1189,Pickled Cucumber,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1190,sumac onion,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1191,tomato salsa,"Soups, Sauces, and Gravies",Vegetables and Vegetable Products,1
+1192,chipotle aioli,0,0,0
+1193,Buffalo Wingswith,Dairy and Egg Products,"Lamb, Veal, and Game Products",1
+1194,Chipotle Aioli,0,0,0
+1195,60g pork,Restaurant Foods,Pork Products,1
+1196,cheese specialties,Dairy and Egg Products,Dairy and Egg Products,0
+1197,sausage specialties,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+1198,Veggie Soulwith,Legumes and Legume Products,0,1
+1199,eggplant salad,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1200,soy yogurt,Legumes and Legume Products,Legumes and Legume Products,0
+1201,almond butter,Dairy and Egg Products,Dairy and Egg Products,0
+1202,coconut chips,Fats and Oils,Fats and Oils,0
+1203,Grilled Eggplant,Beef Products,Vegetables and Vegetable Products,1
+1204,pear,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+1205,Holsten,0,0,0
+1206,Hamwith cheese,Dairy and Egg Products,Dairy and Egg Products,0
+1207,turkey strips,Sausages and Luncheon Meats,Poultry Products,1
+1208,hand cheese,Dairy and Egg Products,Dairy and Egg Products,0
+1209,mashed potatoes,Fast Foods,Vegetables and Vegetable Products,1
+1210,Turkey steak,Sausages and Luncheon Meats,Poultry Products,1
+1211,Fried potatoes,Restaurant Foods,Sausages and Luncheon Meats,1
+1212,Mashed potatoes,Fast Foods,Vegetables and Vegetable Products,1
+1213,processed cheese,Dairy and Egg Products,Dairy and Egg Products,0
+1214,sesame bread,Baked Products,Baked Products,0
+1215,chili flakes,Vegetables and Vegetable Products,Restaurant Foods,1
+1216,Wholegrain Mustard,Spices and Herbs,Fats and Oils,1
+1217,Italian bread,Baked Products,Baked Products,0
+1218,wholemeal bread,Baked Products,Baked Products,0
+1219,yoghurt sauce,"Soups, Sauces, and Gravies","Soups, Sauces, and Gravies",0
+1220,Salamispicy salami,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+1221,Veggie Delitefresh,Legumes and Legume Products,0,1
+1222,Philly Beef,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+1223,spicy Jalapenos,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1224,Chipotle Southwest,American Indian/Alaska Native Foods,American Indian/Alaska Native Foods,0
+1225,Mexican,Dairy and Egg Products,Restaurant Foods,1
+1226,sliced parmesan,Dairy and Egg Products,Pork Products,1
+1227,melted Cheddar,Dairy and Egg Products,Baby Foods,1
+1228,chipotle,0,0,0
+1229,spicy bacon,Pork Products,Legumes and Legume Products,1
+1230,Chicken Fajita,Poultry Products,Poultry Products,0
+1231,tuna cream,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+1232,storage,0,0,0
+1233,fiery jalapenos,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1234,stem cabbage,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1235,vegan cheese,Dairy and Egg Products,Dairy and Egg Products,0
+1236,red onion,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1237,long beans,Legumes and Legume Products,Legumes and Legume Products,0
+1238,Thai eggplants,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1239,lychees,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+1240,prawn paste,Nut and Seed Products,Nut and Seed Products,0
+1241,tamarind juice,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+1242,banana leaves,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+1243,gogi batter,Restaurant Foods,Poultry Products,1
+1244,meatballs,Legumes and Legume Products,Restaurant Foods,1
+1245,Samosadeep-fried dumplings,Restaurant Foods,Sausages and Luncheon Meats,1
+1246,spiced potatoes,Spices and Herbs,Spices and Herbs,0
+1247,Chicken Pakoradeep,Poultry Products,Poultry Products,0
+1248,Chicken Kadaichicken,Poultry Products,Poultry Products,0
+1249,Butter Chickenchicken,Dairy and Egg Products,Dairy and Egg Products,0
+1250,Chicken Vindalooa,Poultry Products,Poultry Products,0
+1251,Chicken Jalfarezichicken,Poultry Products,Poultry Products,0
+1252,Chicken Achari,Poultry Products,Poultry Products,0
+1253,ghee,Dairy and Egg Products,0,1
+1254,chlli,0,0,0
+1255,green peppers,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+1256,Chicken Kormachicken,Poultry Products,Poultry Products,0
+1257,green chilli,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+1258,mango chutney,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+1259,chickpea,Legumes and Legume Products,Legumes and Legume Products,0
+1260,a pie,Baked Products,Sweets,1
+1261,lamb fillet,"Lamb, Veal, and Game Products","Lamb, Veal, and Game Products",0
+1262,crispy vegetables,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1263,Halibut Tikkafillet,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+1264,white halibut,Dairy and Egg Products,Vegetables and Vegetable Products,1
+1265,King prawns,Vegetables and Vegetable Products,Fast Foods,1
+1266,salmon fillet,Legumes and Legume Products,Fats and Oils,1
+1267,Kashmiri chili,Restaurant Foods,Legumes and Legume Products,1
+1268,ground,Sausages and Luncheon Meats,Poultry Products,1
+1269,Chicken Chillichicken,Poultry Products,Poultry Products,0
+1270,Kashmiri chilli,0,0,0
+1271,tandoori-cooked saddle,Pork Products,Vegetables and Vegetable Products,1
+1272,Bhindifresh okra,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1273,chopped onions,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1274,Chile,"Soups, Sauces, and Gravies",Vegetables and Vegetable Products,1
+1275,sake,Beverages,0,1
+1276,4 avocado,Fats and Oils,Fruits and Fruit Juices,1
+1277,red tuna,Finfish and Shellfish Products,Vegetables and Vegetable Products,1
+1278,green seaweed,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+1279,toasted sesame,Nut and Seed Products,Nut and Seed Products,0
+1280,Chicken Döner,Poultry Products,Poultry Products,0
+1281,Chicken Bowl,Poultry Products,Poultry Products,0
+1282,Baklava,0,0,0
+1283,shallot,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1284,carrot,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1285,beef soup,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+1286,white radish,Dairy and Egg Products,Vegetables and Vegetable Products,1
+1287,pickled cabbage,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1288,Spiced Radish,Spices and Herbs,Spices and Herbs,0
+1289,gratin,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1290,mandarins,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+1291,veal strips,Beef Products,Sausages and Luncheon Meats,1
+1292,mortadella,Sausages and Luncheon Meats,0,1
+1293,lamb ragout,"Lamb, Veal, and Game Products","Lamb, Veal, and Game Products",0
+1294,strips,Beef Products,Restaurant Foods,1
+1295,veal balls,Sausages and Luncheon Meats,"Lamb, Veal, and Game Products",1
+1296,raisins,Baked Products,Fruits and Fruit Juices,1
+1297,cranberry sauce,Legumes and Legume Products,Fruits and Fruit Juices,1
+1298,homemade fries,Restaurant Foods,Sausages and Luncheon Meats,1
+1299,Cheese Burgerwith,Dairy and Egg Products,Dairy and Egg Products,0
+1300,glazed bananas,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+1301,basics,0,0,0
+1302,lemon vinaigrette,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+1303,Peanut Butter,Legumes and Legume Products,Fats and Oils,1
+1304,Cream Cheese,Dairy and Egg Products,Dairy and Egg Products,0
+1305,Sparkling water,Finfish and Shellfish Products,Sausages and Luncheon Meats,1
+1306,Cranberry Juice,Fruits and Fruit Juices,Legumes and Legume Products,1
+1307,"peach 0,4l11,25",Fruits and Fruit Juices,Baked Products,1
+1308,avocadocream,0,0,0
+1309,jalapeno,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1310,fry,Baked Products,Fats and Oils,1
+1311,stir-fried vegetables,Restaurant Foods,Sausages and Luncheon Meats,1
+1312,corn-fed chicken,Fats and Oils,Cereal Grains and Pasta,1
+1313,Hass,0,0,0
+1314,Hass avocado,Fats and Oils,Fruits and Fruit Juices,1
+1315,beef steak,Beef Products,Beef Products,0
+1316,oyster,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1317,hot chili,Sausages and Luncheon Meats,Vegetables and Vegetable Products,1
+1318,pecans,Nut and Seed Products,Baked Products,1
+1319,"Pitavegan
+warm flatbread",Baked Products,0,1
+1320,date dressing,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+1321,baba ganoush,0,0,0
+1322,spicy mushrooms,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1323,chunks,Fruits and Fruit Juices,Legumes and Legume Products,1
+1324,mango cream,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+1325,Cauliflower,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1326,Champignonswith onions,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1327,Grilled sausage,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+1328,Wok Vegetables,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1329,Bread,Baked Products,Baked Products,0
+1330,Waffles,Baked Products,Baked Products,0
+1331,finocchiona salami,Sausages and Luncheon Meats,Sausages and Luncheon Meats,0
+1332,cheese selection,Beef Products,Beef Products,0
+1333,passion fruit,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+1334,sourdough bread,Baked Products,Baked Products,0
+1335,white bread,Baked Products,Cereal Grains and Pasta,1
+1336,berry yogurt,Dairy and Egg Products,Dairy and Egg Products,0
+1337,two croissants,Baked Products,Baked Products,0
+1338,fresh blueberries,Spices and Herbs,Vegetables and Vegetable Products,1
+1339,fig,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+1340,cantaloupe melon,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+1341,vegan yogurt,Dairy and Egg Products,Dairy and Egg Products,0
+1342,tonka bean,Legumes and Legume Products,Legumes and Legume Products,0
+1343,vine tomatoes,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1344,raw pasta,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1345,marinated beets,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1346,romanesco,0,0,0
+1347,beet,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1348,herb,Spices and Herbs,Spices and Herbs,0
+1349,Gratin,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1350,Turkey Pastramiwith,Sausages and Luncheon Meats,Poultry Products,1
+1351,crayfish tails,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+1352,cheese Appenzeller,Dairy and Egg Products,Dairy and Egg Products,0
+1353,oven vegetables,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1354,iberico ham,Pork Products,Sausages and Luncheon Meats,1
+1355,pointed peppers,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1356,zucchini-carrot pasta,Vegetables and Vegetable Products,"Soups, Sauces, and Gravies",1
+1357,tuna salad,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+1358,salmon avocado,Fats and Oils,Fruits and Fruit Juices,1
+1359,salmon sashimi,Fats and Oils,Finfish and Shellfish Products,1
+1360,avocado nigiri,Fats and Oils,Fruits and Fruit Juices,1
+1361,Tamago,0,0,0
+1362,Bori,0,0,0
+1363,6 salmon,Fats and Oils,Finfish and Shellfish Products,1
+1364,cucumber tuna,Vegetables and Vegetable Products,Finfish and Shellfish Products,1
+1365,salmon rolls,Fats and Oils,Finfish and Shellfish Products,1
+1366,cucumber rolls,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1367,(salmon caviar,error,error,0
+1368,tuna rolls,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+1369,tuna fillet,Finfish and Shellfish Products,Legumes and Legume Products,1
+1370,sea bass,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+1371,boiled shrimp,Vegetables and Vegetable Products,Poultry Products,1
+1372,California roll,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+1373,grilled chicken,Beef Products,Poultry Products,1
+1374,fried prawns,Restaurant Foods,Sausages and Luncheon Meats,1
+1375,chicken teriyaki,Poultry Products,Poultry Products,0
+1376,fruit,Fruits and Fruit Juices,Fruits and Fruit Juices,0
+1377,salmon teriyaki,Fats and Oils,"Soups, Sauces, and Gravies",1
+1378,bamboo shoots,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1379,egg noodles,Dairy and Egg Products,Dairy and Egg Products,0
+1380,tempura vegetables,Vegetables and Vegetable Products,Vegetables and Vegetable Products,0
+1381,shrimp skewers,Finfish and Shellfish Products,Finfish and Shellfish Products,0
+1382,veggie pockets,"Meals, Entrees, and Side Dishes","Meals, Entrees, and Side Dishes",0
