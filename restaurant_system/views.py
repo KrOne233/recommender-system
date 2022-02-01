@@ -41,8 +41,23 @@ def show_cover(request):
 # remove login required to unrestrict the catalog page
 @login_required(login_url='login')
 def get_restaurants(request):
-    restaurants = Restaurant.objects.all()
-    return render(request, 'catalog.html', {'restaurants': restaurants})
+    model = dump.load("recommender")
+    algo = model[0]
+#    item = pd.read_csv("restaurant.csv")
+    item = Restaurant.objects.all()
+    prediction = dict()
+    user = str(request.user)
+#    for restaurant in item.iloc[:, 0]:
+    for restaurant in item:
+        pred = algo.predict(user, restaurant.name, verbose=True)
+        prediction[str(pred[1])] = float(pred[-2])
+        prediction_ordered = sorted(prediction.items(), key=lambda x: x[1], reverse=True)
+    data = list()
+    for p in prediction_ordered[0:6]:
+        restaurant_name = p[0]
+        data.append(item.filter(name=restaurant_name)[0])
+    return render(request, 'catalog.html', {'restaurants': data})
+
 
 
 def user_registration(request):
