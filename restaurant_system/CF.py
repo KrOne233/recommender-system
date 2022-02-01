@@ -29,7 +29,7 @@ for r in restaurant.iloc[:, 0]:
         CO2.append(0)
 
 restaurant["CO2"] = CO2
-restaurant.to_csv("restaurant_CO2_final.csv", )
+restaurant.to_csv("restaurant_CO2_final.csv", index=False, encoding='utf-8')
 
 restaurant_CO2 = pd.read_csv("restaurant_CO2_final.csv")
 mean = pd.read_csv("restaurant_CO2.csv").iloc[:, 2].mean()
@@ -83,3 +83,12 @@ for restaurant in restaurants.iloc[:, 0]:
     avg_rating.append(round(df[df.iloc[:, 2] == restaurant].iloc[:, 1].mean(), 1))
 restaurants["avg_rating"] = avg_rating
 restaurants.to_csv("restaurant.csv", index=False, encoding='utf-8')
+
+
+restaurants = pd.read_csv("restaurant_CO2_final.csv")
+CO2 = pd.read_csv("user_rating_CO2.csv")
+restaurants_avg = pd.read_csv("restaurant.csv")
+restaurants_avg["CO2 score"] = restaurants.iloc[:, 2]
+for i in restaurants_avg[restaurants_avg.iloc[:,2] != 0].index:
+    restaurants_avg.iloc[i, 2] = round(mean-restaurants_avg.iloc[i, 2], 2)
+restaurants_avg.to_csv("restaurant.csv", index=False, encoding='utf-8')

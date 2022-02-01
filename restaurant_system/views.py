@@ -19,6 +19,7 @@ from urllib.parse import urlencode
 from surprise import dump
 import pandas as pd
 
+
 # # Create your views here.
 # def welcome_message(request):
 #     return HttpResponse ('Welcome')
@@ -28,19 +29,21 @@ import pandas as pd
 def welcome_message(request):
     return render(request, 'hello.html')
 
+
 def show_cover(request):
     return render(request, 'cover.html')
+
 
 # def get_all_ratings(request):   dont need two functionalities
 #     data = {'rating': Restaurant.objects.all()}
 #     return render(request, 'catalog.html',data)
 
-#remove login required to unrestrict the catalog page 
+# remove login required to unrestrict the catalog page
 @login_required(login_url='login')
 def get_restaurants(request):
     restaurants = Restaurant.objects.all()
-    return render(request,'catalog.html',{'restaurants':restaurants})
-    
+    return render(request, 'catalog.html', {'restaurants': restaurants})
+
 
 def user_registration(request):
     if request.user.is_authenticated:
@@ -55,8 +58,8 @@ def user_registration(request):
                 messages.success(request, 'Account successfully created for' + user)
                 return redirect('login')
 
-        context = {'form':form}
-        return render(request, 'registration.html',context)
+        context = {'form': form}
+        return render(request, 'registration.html', context)
 
 
 def login_page(request):
@@ -64,8 +67,8 @@ def login_page(request):
         return redirect('catalog')
     else:
         if request.method == 'POST':
-            username=request.POST.get('username')
-            password=request.POST.get('password')
+            username = request.POST.get('username')
+            password = request.POST.get('password')
             user = authenticate(request, username=username, password=password)
 
             if user is not None:
@@ -82,15 +85,20 @@ def login_page(request):
 
 def logoutuser(request):
     logout(request)
-    return redirect ('login')
+    return redirect('login')
+
 
 def catalog(request):
-    data = {'restaurants': Restaurant.objects.all()}
+    if request.GET.get("sort") is not None:
+        data = {'restaurants': Restaurant.objects.order_by('co2_score').reverse()}
+    else:
+        data = {'restaurants': Restaurant.objects.all()}
     return render(request, 'catalog.html', data)
 
 
 def login_test(request):
     return render(request, 'login_test.html')
+
 
 def recommendation(request):
     '''
@@ -100,11 +108,11 @@ def recommendation(request):
         '''
     model = dump.load("recommender")
     algo = model[0]
-#    item = pd.read_csv("restaurant.csv")
+    #    item = pd.read_csv("restaurant.csv")
     item = Restaurant.objects.all()
     prediction = dict()
     user = request.GET.get('user')
-#    for restaurant in item.iloc[:, 0]:
+    #    for restaurant in item.iloc[:, 0]:
     for restaurant in item:
         pred = algo.predict(user, restaurant.name, verbose=True)
         prediction[str(pred[1])] = float(pred[-2])
@@ -114,6 +122,7 @@ def recommendation(request):
         restaurant_name = p[0]
         data.append(item.filter(name=restaurant_name)[0])
     return render(request, 'catalog.html', {'restaurants': data})
+
 
 def get_detail(request):
     restaurant_name = request.GET.get('name')
@@ -128,6 +137,7 @@ def get_detail(request):
         menu.description = "not available"
         return render(request, 'menu.html', {'menus': [menu], 'user': user, 'name': restaurant_name})
 
+
 def rating(request):
     user = request.GET.get('user')
     restaurant_name = request.GET.get('name')
@@ -139,5 +149,3 @@ def rating(request):
             return HttpResponse("Thanks for rating")
         else:
             return HttpResponse("invalid input, please return")
-
-

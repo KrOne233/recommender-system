@@ -46,6 +46,8 @@
             <!-- Call to Action-->
             <div class="card text-white bg-secondary my-5 py-4 text-center">
                 <div class="card-body"><p class="text-white m-2">Restaurants recommended to you </p></div>
+                <div class="card-body"><a class="btn btn-primary btn-sm" href='http://127.0.0.1:8000/restaurant_system/catalog2/' >See all the restaurants </a></div>
+                <div class="card-body"><a class="btn btn-primary btn-sm" href='http://127.0.0.1:8000/restaurant_system/catalog2/?sort=1' >Sorted by CO2 Score </a></div>
             </div>
             <!-- Content Row-->
             <div class="row gx-4 gx-lg-5">
@@ -55,9 +57,9 @@
                           
                           {% for r in restaurants%}
                             <h2 class="card-title">{{r.name}}</h2>
-                            <p class="card-text">{{r.location}}</p>
+                            <p class="card-text">{{r.rating}}</p>
                         </div>
-                        <div class="card-footer"><a class="btn btn-primary btn-sm" href='http://127.0.0.1:8000/restaurant_system/detail/?name={{r.name}}&user={{request.user}}' >{{r.rating}} </a></div>
+                        <div class="card-footer"><a class="btn btn-primary btn-sm" href='http://127.0.0.1:8000/restaurant_system/detail/?name={{r.name}}&user={{request.user}}' >{{r.co2_score}} </a></div>
                         
                     </div>
                     
