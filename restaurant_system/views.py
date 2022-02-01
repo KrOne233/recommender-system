@@ -160,7 +160,11 @@ def rating(request):
         form = Rating(request.POST)
         if form.is_valid():
             rate = request.POST.get('rating')
-            Restaurantsystemuser.objects.create(user=user, rating=rate, restaurant=restaurant_name)
-            return HttpResponse("Thanks for rating")
+            record = Restaurantsystemuser.objects.filter(user=user, restaurant=restaurant_name)
+            if record.exists():
+                return HttpResponse("You have rated this restaurant as " + str(record[0].rating) + " before, you can not rate repeatedly, please return")
+            else:
+                Restaurantsystemuser.objects.create(user=user, rating=rate, restaurant=restaurant_name)
+                return HttpResponse("Thanks for rating")
         else:
             return HttpResponse("invalid input, please return")
