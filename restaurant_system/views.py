@@ -43,11 +43,9 @@ def show_cover(request):
 def get_restaurants(request):
     model = dump.load("recommender")
     algo = model[0]
-#    item = pd.read_csv("restaurant.csv")
     item = Restaurant.objects.all()
     prediction = dict()
     user = str(request.user)
-#    for restaurant in item.iloc[:, 0]:
     for restaurant in item:
         pred = algo.predict(user, restaurant.name, verbose=True)
         prediction[str(pred[1])] = float(pred[-2])
@@ -116,18 +114,11 @@ def login_test(request):
 
 
 def recommendation(request):
-    '''
-    if request.method == "POST":
-        user = request.POST.get('username')
-
-        '''
     model = dump.load("recommender")
     algo = model[0]
-    #    item = pd.read_csv("restaurant.csv")
     item = Restaurant.objects.all()
     prediction = dict()
     user = request.GET.get('user')
-    #    for restaurant in item.iloc[:, 0]:
     for restaurant in item:
         pred = algo.predict(user, restaurant.name, verbose=True)
         prediction[str(pred[1])] = float(pred[-2])
